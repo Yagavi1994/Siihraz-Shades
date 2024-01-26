@@ -22,12 +22,25 @@ body {
 
 /* Header */
 header {
-    background-color: lightblue;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
+/*h1 (
+    text-transform: uppercase;
+)
+*/
 /* Main Conteny */
 main {
     background-color: lightpink;
+    flex: 1 0 auto;
 }
 
 /* Footer */
