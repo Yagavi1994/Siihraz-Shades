@@ -3,3 +3,18 @@
 /* Code for Fonts
 font-family: 'Karla', sans-serif;
 font-family: 'Merriweather Sans', sans-serif; */
+
+/* Header */
+header {
+    background-color: lightblue;
+}
+
+/* Main Conteny */
+main {
+    background-color: lightpink;
+}
+
+/* Footer */
+footer {
+    background-color: lightgreen;
+}
