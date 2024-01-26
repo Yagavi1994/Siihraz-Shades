@@ -68,7 +68,7 @@ header a {
 /* Nav toggle dropdown list*/
 nav {
     position: absolute;
-    width: fit-content;
+    width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     padding: 0 1rem;
     background-color: #ffffff;
@@ -87,14 +87,13 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
-    padding-top:;
 }
 
 /* Main Content */
 main {
     background-color: lightpink;
     flex: 1 0 auto;
-    margin-top: 150px;
+    margin-top: 74px;
 }
 
 /* Footer */
