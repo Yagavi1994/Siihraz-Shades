@@ -4,6 +4,22 @@
 font-family: 'Karla', sans-serif;
 font-family: 'Merriweather Sans', sans-serif; */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: 'Karla', sans-serif;
+}
+
 /* Header */
 header {
     background-color: lightblue;
