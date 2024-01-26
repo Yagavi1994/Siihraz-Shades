@@ -30,7 +30,7 @@ header {
     box-shadow: 0 2px 2px black;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
 
 header a {
@@ -68,7 +68,7 @@ header a {
 /* Nav toggle dropdown list*/
 nav {
     position: absolute;
-    width: 100%;
+    width: fit-content;
     box-shadow: 0 2px 2px #3a3a3a;
     padding: 0 1rem;
     background-color: #ffffff;
@@ -87,8 +87,10 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    padding-top:;
 }
-/* Main Conteny */
+
+/* Main Content */
 main {
     background-color: lightpink;
     flex: 1 0 auto;
