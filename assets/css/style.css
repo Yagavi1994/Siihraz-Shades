@@ -121,14 +121,14 @@ main {
 #about p {
     font-family: 'Karla', sans-serif ;
     font-weight: 200;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     padding: 20px;
     font-size: 100%;
     text-align: justify;
 }
 
 #about-me-image {
-    background: url(../images/IMG_20240127_172423.jpg) no-repeat top center / cover;
+    background-image: url(../images/reasons-image.webp) no-repeat center center / cover;
 }
 
 /* Footer */
