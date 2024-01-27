@@ -106,7 +106,7 @@ main {
     width: 100%;
 }
 
-/* About */
+/* About Me */
 
 #about h2 {
     font-family: 'Karla', sans-serif;
@@ -126,9 +126,10 @@ main {
     padding: 20px;
     font-size: 100%;
     text-align: justify;
-    background-color: rgba(195, 113, 56, 0.63);
+    background-color: rgba(47, 52, 48, 0.8);
     margin: 0 5px;
     border-radius: 2%;
+    color: #ffffff;
     
 }
 
