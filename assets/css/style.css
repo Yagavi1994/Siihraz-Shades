@@ -99,6 +99,11 @@ main {
     flex: 1 0 auto;
     margin-top: 74px;
 }
+#logo-image img {
+    position: absolute;
+    height: 184px;
+    width: 320px;
+}
 
 /* Footer */
 footer {
