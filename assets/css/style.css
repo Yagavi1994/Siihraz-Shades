@@ -51,12 +51,17 @@ header a {
 }
 
 /* Menu */
+
+#nav-menu {
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+}
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
     text-align: right;
-    color: black;
 }
 
 #menu>li {
@@ -71,7 +76,7 @@ header a {
 /* Nav toggle dropdown list*/
 nav {
     position: absolute;
-    width: 100%;
+    width: fit-content;
     background-position: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     padding: 0 1rem;
@@ -108,6 +113,7 @@ main {
 
 /* Footer */
 footer {
+    background-color: aquamarine;
     #social-media {
         display: flex;
         justify-content: space-evenly;
@@ -200,3 +206,5 @@ footer {
             height: 600px;
             width: 100%;
         }
+    }
+}
