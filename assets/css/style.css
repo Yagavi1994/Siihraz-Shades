@@ -142,6 +142,27 @@ footer {
         margin: 0 0.5rem;
     }
 
+}
+
+/* Large Devices like Laptop and Desktop (992px and up) */
+
+@media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid black;
+}
+
+#menu {
+    font-size: 110%;
+}
+
+#logo {
+    font-size: 120%;
+}
+
+/* push main content down */
+
+main {
+    margin-top: 83px;
+}
+
 }
