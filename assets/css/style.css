@@ -127,8 +127,17 @@ main {
     text-align: justify;
 }
 
+#about-me-image img {
+   width: 90vw;
+   height: 90vw;
+   max-width: 300px;
+   max-height: 300px;
+}
+
 #about-me-image {
-    background-image: url(../images/reasons-image.webp) no-repeat center center / cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Footer */
