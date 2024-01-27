@@ -97,72 +97,91 @@ nav {
 main {
     background-color: lightpink;
     flex: 1 0 auto;
-    margin-top: 73px;
+    margin-top: 74px;
 }
 
 /* Footer */
 footer {
-    background-color: lightgreen;
-}
-
-/* Media query for tablet and larger screen 768px and up */
-@media screen and (min-width: 768px) {
-
-    /* Header */
-    nav {
-        display: block;
-        box-shadow: none;
-        position: relative;
-        width: fit-content;
-        padding-right: .5rem;
-    }
-
-    #menu {
+    #social-media {
         display: flex;
-        align-items: center;
-        font-size: 80%;
-        letter-spacing: 2px;
-        list-style-type: none;
-        text-align: right;
-        color: black;
-        padding-top: 11px;
+        justify-content: space-evenly;
+        text-align: center;
+        padding: 20px 0;
+        list-style: none;
     }
 
-    #menu>li {
-        padding-left: .5rem;
+    #social-media i {
+        font-size: 160%;
+        padding: 5%;
+        color: #3a3a3a;
     }
 
-    .nav-toggle-label {
-        display: none;
+    /* Media query for tablet and larger screen 768px and up */
+    @media screen and (min-width: 768px) {
+
+        /* Header */
+        nav {
+            display: block;
+            box-shadow: none;
+            position: relative;
+            width: fit-content;
+            padding-right: .5rem;
+        }
+
+        #menu {
+            display: flex;
+            align-items: center;
+            font-size: 80%;
+            letter-spacing: 2px;
+            list-style-type: none;
+            text-align: right;
+            color: black;
+            padding-top: 11px;
+        }
+
+        #menu>li {
+            padding-left: .5rem;
+        }
+
+        .nav-toggle-label {
+            display: none;
+        }
+
+        #logo {
+            font-size: 100%;
+            line-height: 25px;
+            margin: 0 0.5rem;
+        }
+
+        /* Main Content */
+
+        /* push main content down */
+
+        main {
+            margin-top: 70px;
+        }
     }
 
-    #logo {
-        font-size: 100%;
-        line-height: 25px;
-        margin: 0 0.5rem;
+    /* Large Devices like Laptop and Desktop (992px and up) */
+
+    @media screen and (min-width: 992px) {
+        #menu a:hover {
+            border-bottom: 1px solid black;
+        }
+
+        #menu {
+            font-size: 110%;
+        }
+
+        #logo {
+            font-size: 120%;
+        }
+
+        /* push main content down */
+
+        main {
+            margin-top: 83px;
+        }
+
     }
-
-}
-
-/* Large Devices like Laptop and Desktop (992px and up) */
-
-@media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid black;
-}
-
-#menu {
-    font-size: 110%;
-}
-
-#logo {
-    font-size: 120%;
-}
-
-/* push main content down */
-
-main {
-    margin-top: 83px;
-}
-
 }
