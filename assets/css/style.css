@@ -51,12 +51,6 @@ header a {
 }
 
 /* Menu */
-
-#nav-menu {
-    display: flex;
-    align-items: end;
-    justify-content: flex-end;
-}
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -76,7 +70,7 @@ header a {
 /* Nav toggle dropdown list*/
 nav {
     position: absolute;
-    width: fit-content;
+    width: 100%;
     background-position: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     padding: 0 1rem;
@@ -100,7 +94,7 @@ nav {
 
 /* Main Content */
 main {
-    background-color: lightpink;
+    background-color: white;
     flex: 1 0 auto;
     margin-top: 74px;
 }
@@ -111,9 +105,34 @@ main {
     width: 100%;
 }
 
+/* About */
+
+#about h2 {
+    font-family: 'Karla', sans-serif;
+    font-size: 150%;
+    color: #3a3a3a;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 20px;
+}
+
+#about p {
+    font-family: 'Karla', sans-serif ;
+    font-weight: 200;
+    letter-spacing: 2px;
+    padding: 20px;
+    font-size: 100%;
+    text-align: justify;
+}
+
+#about-me-image {
+    background: url(../images/IMG_20240127_172423.jpg) no-repeat top center / cover;
+}
+
 /* Footer */
 footer {
-    background-color: aquamarine;
     #social-media {
         display: flex;
         justify-content: space-evenly;
