@@ -141,4 +141,7 @@ footer {
         line-height: 25px;
         margin: 0 0.5rem;
     }
+
+    #menu a:hover {
+        border-bottom: 1px solid black;
 }
