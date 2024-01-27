@@ -99,10 +99,11 @@ main {
     flex: 1 0 auto;
     margin-top: 74px;
 }
+
+/* Logo Image */
 #logo-image img {
-    position: absolute;
-    height: 184px;
-    width: 320px;
+    height: 250px;
+    width: 100%;
 }
 
 /* Footer */
@@ -122,50 +123,55 @@ footer {
     }
 }
 
-    /* Media query for tablet and larger screen 768px and up */
-    @media screen and (min-width: 768px) {
+/* Media query for tablet and larger screen 768px and up */
+@media screen and (min-width: 768px) {
 
-        /* Header */
-        nav {
-            display: block;
-            box-shadow: none;
-            position: relative;
-            width: fit-content;
-            padding-right: .5rem;
-        }
+    /* Header */
+    nav {
+        display: block;
+        box-shadow: none;
+        position: relative;
+        width: fit-content;
+        padding-right: .5rem;
+    }
 
-        #menu {
-            display: flex;
-            align-items: center;
-            font-size: 80%;
-            letter-spacing: 2px;
-            list-style-type: none;
-            text-align: right;
-            color: black;
-            padding-top: 11px;
-        }
+    #menu {
+        display: flex;
+        align-items: center;
+        font-size: 80%;
+        letter-spacing: 2px;
+        list-style-type: none;
+        text-align: right;
+        color: black;
+        padding-top: 11px;
+    }
 
-        #menu>li {
-            padding-left: .5rem;
-        }
+    #menu>li {
+        padding-left: .5rem;
+    }
 
-        .nav-toggle-label {
-            display: none;
-        }
+    .nav-toggle-label {
+        display: none;
+    }
 
-        #logo {
-            font-size: 100%;
-            line-height: 25px;
-            margin: 0 0.5rem;
-        }
+    #logo {
+        font-size: 100%;
+        line-height: 25px;
+        margin: 0 0.5rem;
+    }
 
-        /* Main Content */
+    /* Main Content */
 
-        /* push main content down */
+    /* push main content down */
 
-        main {
-            margin-top: 70px;
-        }
+    main {
+        margin-top: 70px;
+    }
+
+    /* Logo Image */
+    #logo-image img {
+        height: 500px;
+        width: 100%;
     }
 
     /* Large Devices like Laptop and Desktop (992px and up) */
@@ -189,4 +195,8 @@ footer {
             margin-top: 83px;
         }
 
-    }
+        /* Logo Image */
+        #logo-image img {
+            height: 600px;
+            width: 100%;
+        }
