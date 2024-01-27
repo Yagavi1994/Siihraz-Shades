@@ -36,9 +36,11 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
+    background-position: 100%;
+    padding-right: .6em;
 }
 
-#logo1 {
+#logo {
     text-transform: uppercase;
     font-size: 18px;
     letter-spacing: 2px;
@@ -47,6 +49,7 @@ header a {
 #makup-artist {
     font-weight: lighter;
 }
+
 /* Menu */
 #menu {
     font-size: 110%;
@@ -69,6 +72,7 @@ header a {
 nav {
     position: absolute;
     width: 100%;
+    background-position: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     padding: 0 1rem;
     background-color: #ffffff;
@@ -93,10 +97,48 @@ nav {
 main {
     background-color: lightpink;
     flex: 1 0 auto;
-    margin-top: 74px;
+    margin-top: 73px;
 }
 
 /* Footer */
 footer {
-    background-color: lightblue;
+    background-color: lightgreen;
+}
+
+/* Media query for tablet and larger screen 768px and up */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        box-shadow: none;
+        position: relative;
+        width: fit-content;
+        padding-right: .5rem;
+    }
+
+    #menu {
+        display: flex;
+        align-items: center;
+        font-size: 80%;
+        letter-spacing: 2px;
+        list-style-type: none;
+        text-align: right;
+        color: black;
+        padding-top: 11px;
+    }
+
+    #menu>li {
+        padding-left: .5rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 100%;
+        line-height: 25px;
+        margin: 0 0.5rem;
+    }
 }
