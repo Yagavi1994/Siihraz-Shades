@@ -155,7 +155,7 @@ main {
 
 /* Services */
 
-#services {
+#services-section {
     background-color: rgba(195, 113, 56, 0.63) ;
     display: flex;
     align-items: center;
@@ -210,7 +210,7 @@ padding-top: 10px;
 }
 
 /* Photoshoot Makeup */
-#phtotoshoot-service {
+#photoshoot-service {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
@@ -219,6 +219,7 @@ padding-top: 10px;
     background-color: #ffffff;
     border: 10px;
     align-items: center;
+    margin-top: 20px;
 }
 
 #photoshoot-service img {
@@ -231,6 +232,39 @@ padding-top: 10px;
 
 #photoshoot-service h3 {
 padding-top: 10px;
+text-align: center;
+}
+
+#photoshoot-service p {
+    text-align: justify;
+    padding: 15px;
+
+}
+
+/* Photoshoot Makeup */
+#photoshoot-service {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    height: 475px;
+    width: 300px;
+    background-color: #ffffff;
+    border: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#photoshoot-service img {
+   width: 90vw;
+   height: 90vw;
+   max-width: 300px;
+   max-height: 300px;
+   border: 12px solid #ffffff;
+}
+
+#photoshoot-service h3 {
+padding-top: 10px;
+text-align: center;
 }
 
 #photoshoot-service p {
