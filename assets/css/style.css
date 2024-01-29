@@ -133,12 +133,17 @@ main {
     
 }
 
+#about hr {
+    padding-top : 40px;
+    color: #ffffff;
+}
+
 #about-me-image img {
    width: 90vw;
    height: 90vw;
    max-width: 300px;
    max-height: 300px;
-   margin-bottom: 30px;
+   margin-bottom: 15px;
    border-radius: 10%;
 }
 
@@ -191,8 +196,47 @@ main {
    height: 90vw;
    max-width: 300px;
    max-height: 300px;
-   margin-bottom: 30px;
-   border: 10px solid #ffffff;
+   border: 12px solid #ffffff;
+}
+
+#bridal-service h3 {
+padding-top: 10px;
+}
+
+#bridal-service p {
+    text-align: justify;
+    padding: 15px;
+
+}
+
+/* Photoshoot Makeup */
+#phtotoshoot-service {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    height: 475px;
+    width: 300px;
+    background-color: #ffffff;
+    border: 10px;
+    align-items: center;
+}
+
+#photoshoot-service img {
+   width: 90vw;
+   height: 90vw;
+   max-width: 300px;
+   max-height: 300px;
+   border: 12px solid #ffffff;
+}
+
+#photoshoot-service h3 {
+padding-top: 10px;
+}
+
+#photoshoot-service p {
+    text-align: justify;
+    padding: 15px;
+
 }
 
 /* Footer */
