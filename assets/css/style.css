@@ -358,6 +358,14 @@ footer {
         padding: 50px 20px;
     }
 
+    /* Services */
+
+    #services-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
 
     /* Large Devices like Laptop and Desktop (992px and up) */
 
@@ -385,5 +393,13 @@ footer {
             height: 600px;
             width: 100%;
         }
+    }
+
+    /* Services */
+
+    #services-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
 }
