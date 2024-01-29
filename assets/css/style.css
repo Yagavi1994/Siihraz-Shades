@@ -120,7 +120,7 @@ main {
 }
 
 #about p {
-    font-family: 'Karla', sans-serif ;
+    font-family: 'Karla', sans-serif;
     font-weight: 300;
     letter-spacing: 1px;
     line-height: 25px;
@@ -131,21 +131,21 @@ main {
     margin: 0 5px;
     border-radius: 2%;
     color: #ffffff;
-    
+
 }
 
 #about hr {
-    padding-top : 40px;
+    padding-top: 40px;
     color: #ffffff;
 }
 
 #about-me-image img {
-   width: 90vw;
-   height: 90vw;
-   max-width: 300px;
-   max-height: 300px;
-   margin-bottom: 15px;
-   border-radius: 10%;
+    width: 90vw;
+    height: 90vw;
+    max-width: 300px;
+    max-height: 300px;
+    margin-bottom: 15px;
+    border-radius: 10%;
 }
 
 #about-me-image {
@@ -157,16 +157,17 @@ main {
 /* Section Line */
 
 .section-line {
-    height: 40px ;
+    height: 40px;
     width: 100%;
     border-bottom: 0.5px solid #3a3a3a;
-    
+
 
 }
+
 /* Services */
 
 #services-section {
-    background-color: rgba(195, 113, 56, 0.63) ;
+    background-color: rgba(195, 113, 56, 0.63);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -189,6 +190,25 @@ main {
     padding: 0 20px;
 }
 
+#services p {
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding: 20px;
+    font-size: 100%;
+    text-align: center;
+    margin: 0 5px;
+    border-radius: 2%;
+    color: #3a3a3a;
+
+}
+
+#services h3 {
+    font-family: 'Karla', sans-serif ;
+    color: #3a3a3a;
+}
+
 /* Bridal Makeup */
 #bridal-service {
     display: flex;
@@ -202,15 +222,15 @@ main {
 }
 
 #bridal-service img {
-   width: 90vw;
-   height: 90vw;
-   max-width: 300px;
-   max-height: 300px;
-   border: 12px solid #ffffff;
+    width: 90vw;
+    height: 90vw;
+    max-width: 300px;
+    max-height: 300px;
+    border: 12px solid #ffffff;
 }
 
 #bridal-service h3 {
-padding-top: 10px;
+    padding-top: 10px;
 }
 
 #bridal-service p {
@@ -233,16 +253,16 @@ padding-top: 10px;
 }
 
 #photoshoot-service img {
-   width: 90vw;
-   height: 90vw;
-   max-width: 300px;
-   max-height: 300px;
-   border: 12px solid #ffffff;
+    width: 90vw;
+    height: 90vw;
+    max-width: 300px;
+    max-height: 300px;
+    border: 12px solid #ffffff;
 }
 
 #photoshoot-service h3 {
-padding-top: 10px;
-text-align: center;
+    padding-top: 10px;
+    text-align: center;
 }
 
 #photoshoot-service p {
@@ -265,21 +285,48 @@ text-align: center;
 }
 
 #events-service img {
-   width: 90vw;
-   height: 90vw;
-   max-width: 300px;
-   max-height: 300px;
-   border: 12px solid #ffffff;
+    width: 90vw;
+    height: 90vw;
+    max-width: 300px;
+    max-height: 300px;
+    border: 12px solid #ffffff;
 }
 
 #events-service h3 {
-padding-top: 10px;
-text-align: center;
+    padding-top: 10px;
+    text-align: center;
 }
 
 #events-service p {
     text-align: justify;
     padding: 15px;
+
+}
+
+/* Reviews */
+#reviews h2 {
+    font-family: 'Karla', sans-serif;
+    font-size: 170%;
+    color: #3a3a3a;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 30px;
+    padding-bottom: 10px;
+}
+
+#reviews p {
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding: 20px;
+    font-size: 100%;
+    text-align: center;
+    margin: 0 5px;
+    border-radius: 2%;
+    color: #3a3a3a;
 
 }
 
@@ -367,7 +414,7 @@ footer {
         font-size: 200%;
     }
 
-    #about p { 
+    #about p {
         margin-right: 20px;
         border-radius: 2%;
         padding: 50px 20px;
@@ -383,11 +430,17 @@ footer {
     #services-section {
         display: flex;
         flex-direction: row;
-        justify-content:space-around;
+        justify-content: space-around;
         align-items: baseline;
         flex-wrap: wrap;
-        
+
     }
+
+    /* Reviews */
+    #reviews h2 {
+        font-size: 200%;
+    }
+    
 
 
     /* Large Devices like Laptop and Desktop (992px and up) */
@@ -428,7 +481,7 @@ footer {
         font-size: 250%;
     }
 
-    #about-content em { 
+    #about-content em {
         padding: 80px 20px;
         line-height: 30px;
     }
@@ -443,5 +496,11 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+    }
+
+    /* Reviews */
+
+    #reviews h2 {
+        font-size: 250%;
     }
 }
