@@ -81,11 +81,6 @@ nav {
     top: 100%;
 }
 
-menu:active {
-    display: hide;
-
-}
-
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -115,7 +110,7 @@ main {
 
 #about h2 {
     font-family: 'Karla', sans-serif;
-    font-size: 200%;
+    font-size: 170%;
     color: #3a3a3a;
     text-align: center;
     font-weight: 400;
@@ -158,6 +153,13 @@ main {
     justify-content: center;
 }
 
+#section-line {
+    height: 40px ;
+    width: 100%;
+    border-bottom: 0.5px solid #3a3a3a;
+    
+
+}
 /* Services */
 
 #services-section {
@@ -170,7 +172,7 @@ main {
 
 #services h2 {
     font-family: 'Karla', sans-serif;
-    font-size: 200%;
+    font-size: 170%;
     color: #3a3a3a;
     text-align: center;
     font-weight: 400;
