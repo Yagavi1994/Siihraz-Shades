@@ -116,13 +116,14 @@ main {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 4px;
-    padding: 20px;
+    padding: 30px;
 }
 
 #about p {
     font-family: 'Karla', sans-serif ;
     font-weight: 300;
     letter-spacing: 1px;
+    line-height: 25px;
     padding: 20px;
     font-size: 100%;
     text-align: justify;
@@ -370,6 +371,7 @@ footer {
         margin-right: 20px;
         border-radius: 2%;
         padding: 50px 20px;
+        line-height: 20px;
     }
 
     /* Services */
@@ -422,7 +424,7 @@ footer {
         font-size: 250%;
     }
 
-    #about p { 
+    #about-content em { 
         padding: 80px 20px;
         line-height: 30px;
     }
