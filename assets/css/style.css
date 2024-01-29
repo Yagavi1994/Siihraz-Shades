@@ -148,6 +148,53 @@ main {
     justify-content: center;
 }
 
+/* Services */
+
+#services {
+    background-color: rgba(195, 113, 56, 0.63) ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#services h2 {
+    font-family: 'Karla', sans-serif;
+    font-size: 200%;
+    color: #3a3a3a;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 20px;
+}
+
+#services hr {
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+/* Bridal Makeup */
+#bridal-service {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    height: 475px;
+    width: 300px;
+    background-color: #ffffff;
+    border: 10px;
+    align-items: center;
+}
+
+#bridal-service img {
+   width: 90vw;
+   height: 90vw;
+   max-width: 300px;
+   max-height: 300px;
+   margin-bottom: 30px;
+   border: 10px solid #ffffff;
+}
+
 /* Footer */
 footer {
     #social-media {
