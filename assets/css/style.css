@@ -81,6 +81,11 @@ nav {
     top: 100%;
 }
 
+menu:active {
+    display: hide;
+
+}
+
 #nav-toggle:checked~nav {
     display: block;
 }
