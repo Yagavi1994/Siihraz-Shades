@@ -117,6 +117,7 @@ main {
     text-transform: uppercase;
     letter-spacing: 4px;
     padding: 30px;
+    
 }
 
 #about p {
@@ -154,20 +155,23 @@ main {
     justify-content: center;
 }
 
-/* Section Line */
+/* Section Line
 
 .section-line {
     height: 40px;
     width: 100%;
-    border-bottom: 0.5px solid #3a3a3a;
+    border-bottom: 0.5px solid #ffffff; 
 
-
-}
+} */
 
 /* Services */
 
-#services-section {
+#services {
     background-color: rgba(195, 113, 56, 0.63);
+    margin-top: 50px;
+}
+
+#services-section {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -177,12 +181,13 @@ main {
 #services h2 {
     font-family: 'Karla', sans-serif;
     font-size: 170%;
-    color: #3a3a3a;
+    color: #ffffff;
     text-align: center;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 4px;
     padding: 30px;
+    padding-bottom: 10px;
 }
 
 #services hr {
