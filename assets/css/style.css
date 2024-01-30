@@ -113,7 +113,7 @@ main {
     text-transform: uppercase;
     letter-spacing: 4px;
     padding: 30px;
-    
+
 }
 
 #about p {
@@ -198,7 +198,7 @@ main {
 }
 
 #services h3 {
-    font-family: 'Karla', sans-serif ;
+    font-family: 'Karla', sans-serif;
     color: #3a3a3a;
 }
 
@@ -327,6 +327,7 @@ main {
 #portfolio-main {
     background-color: rgba(47, 52, 48, 0.8);
 }
+
 #portfolio h2 {
     font-family: 'Karla', sans-serif;
     font-size: 170%;
@@ -338,6 +339,7 @@ main {
     padding: 30px;
     padding-bottom: 30px;
 }
+
 .container {
     max-width: 1224px;
     width: 90%;
@@ -368,7 +370,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: #3a3a3a ;
+    background-color: rgba(47, 52, 48, 0.8);
 
     #social-media {
         display: flex;
@@ -478,11 +480,11 @@ footer {
     #reviews h2 {
         font-size: 200%;
     }
-    
-     /* Portfolio */
-     #portfolio h2 {
+
+    /* Portfolio */
+    #portfolio h2 {
         font-size: 200%;
-}
+    }
 
 
     /* Large Devices like Laptop and Desktop (992px and up) */
@@ -491,7 +493,7 @@ footer {
         #menu a:hover {
             border-bottom: 1px solid black;
             color: rgba(195, 113, 56, 0.63);
-            
+
         }
 
         #menu a:active {
@@ -552,5 +554,5 @@ footer {
     /* Portfolio */
     #portfolio h2 {
         font-size: 250%;
-}
+    }
 }
