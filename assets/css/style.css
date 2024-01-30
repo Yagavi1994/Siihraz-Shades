@@ -341,12 +341,26 @@ main {
     align-items: center;
 }
 */
-
+#portfolio-main {
+    background-color: rgba(47, 52, 48, 0.8);
+}
+#portfolio h2 {
+    font-family: 'Karla', sans-serif;
+    font-size: 170%;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 30px;
+    padding-bottom: 30px;
+}
 .container {
     max-width: 1224px;
     width: 90%;
     margin: auto;
-    padding: 40px 0;
+    padding: 10px 10px;
+    background-color: #ffffff;
 }
 
 .photo-gallery {
