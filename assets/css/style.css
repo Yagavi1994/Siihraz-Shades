@@ -102,7 +102,7 @@ main {
 
 /* Logo Image */
 #logo-image img {
-    height: 250px;
+    height: 170px;
     width: 100%;
 }
 
@@ -394,7 +394,7 @@ footer {
 
     /* Logo Image */
     #logo-image img {
-        height: 500px;
+        height: 550px;
         width: 100%;
     }
 
@@ -473,7 +473,7 @@ footer {
 
         /* Logo Image */
         #logo-image img {
-            height: 600px;
+            height: 700px;
             width: 100%;
         }
     }
