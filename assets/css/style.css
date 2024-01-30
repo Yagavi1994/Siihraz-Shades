@@ -329,6 +329,8 @@ main {
 
 /* Footer */
 footer {
+    background-color: #3a3a3a ;
+
     #social-media {
         display: flex;
         justify-content: space-evenly;
@@ -340,7 +342,7 @@ footer {
     #social-media i {
         font-size: 160%;
         padding: 5%;
-        color: #3a3a3a;
+        color: #ffffff;
     }
 }
 
