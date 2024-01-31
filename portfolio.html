@@ -76,8 +76,24 @@
                                 alt="Image of a woman in bridal makeover">
                         </div>
                     </div>
+                    </div>
                 </div>
             </div>
+            <div class="popup-image">
+                <span>&times</span>
+                <img src="https://i.ibb.co/1G2gR2K/IMG-20240130-222143.jpg"
+                                alt="Image of a woman in grey salwar with makeup">
+            <script>
+                document.querySelectorAll('.column img').forEach(image =>{
+                image.onclick = () =>{
+                document.querySelector('.popup-image').style.display = 'block';
+                document.querySelector('.popup-image img').src = image.getAttribute('src')
+                }
+            });
+            document.querySelector('.popup-image span').onclick = () =>{
+                document.querySelector('.popup-image').style.display = 'none';
+            }
+            </script>
         </section>
     </main>
 
