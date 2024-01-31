@@ -151,6 +151,10 @@ main {
     justify-content: center;
 }
 
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 /* Services */
 
 #services {
@@ -406,7 +410,6 @@ main {
     position: absolute;
     top: 50%; left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 5px;
     width: 80%;
     height: 80%;
     object-fit: contain;
