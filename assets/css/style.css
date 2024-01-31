@@ -408,8 +408,10 @@ main {
     transform: translate(-50%, -50%);
     border: 5px solid #ffffff;
     border-radius: 5px;
-    width: 500px;
-    object-fit: cover;
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    
 }
 
 
@@ -531,6 +533,10 @@ footer {
     #portfolio h2 {
         font-size: 200%;
     }
+
+   /* .popup-image img {
+        width: 95%;
+    } */
 
 
     /* Large Devices like Laptop and Desktop (992px and up) */
