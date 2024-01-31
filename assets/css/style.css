@@ -367,6 +367,29 @@ main {
 
 }
 
+/* Pop-up Image 
+.photo-gallery .column .photo {
+    height: 250px;
+    width: 350px;
+    border: 10px solid #ffffff;
+    box-shadow: 0 5px 15px #3a3a3a;
+    overflow: hidden;
+    cursor: pointer;
+} */
+
+.photo-gallery .column .photo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 2s linear;
+
+}
+
+.photo-gallery .column .photo:hover img {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 
 /* Footer */
 footer {
