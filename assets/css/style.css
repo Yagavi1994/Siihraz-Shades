@@ -492,6 +492,11 @@ button {
     width: 60px
 }
 
+::placeholder {
+    color: #ffffff;
+    opacity: 0.7;
+  }
+
 form {
     height: 200px;
     width: 270px;
@@ -530,7 +535,7 @@ form {
 #contact-details {
     padding: 20px 0;
     background-color: rgba(195, 113, 56, 0.63);
-    margin: 50px 0;
+    margin: 40px 0;
     padding-left: 10px;
 }
 #contact-info {
