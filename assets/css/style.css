@@ -563,6 +563,26 @@ form {
     color: #585656;
 }
 
+td {
+    color: #ffffff;
+    font-size: 100%;
+    line-height: 20px;
+    letter-spacing: 0.7px;
+
+}
+table {
+    width: 75px;
+    height: 100%;
+    padding: 20px;
+    border-spacing: 10px;
+}
+
+/* Google Map */
+
+#google-map {
+    
+}
+
 /* Footer */
 footer {
     background-color: rgba(47, 52, 48, 0.8);
