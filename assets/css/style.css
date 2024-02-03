@@ -143,6 +143,7 @@ main {
     max-height: 300px;
     margin-bottom: 15px;
     border-radius: 10%;
+    border: 2px solid #585656;
 }
 
 #about-me-image {
@@ -228,6 +229,7 @@ main {
 
 #bridal-service h3 {
     padding-top: 10px;
+    color: #585656;
 }
 
 #bridal-service p {
@@ -260,6 +262,7 @@ main {
 #photoshoot-service h3 {
     padding-top: 10px;
     text-align: center;
+    color: #585656;
 }
 
 #photoshoot-service p {
@@ -292,6 +295,7 @@ main {
 #events-service h3 {
     padding-top: 10px;
     text-align: center;
+    color: #585656;
 }
 
 #events-service p {
@@ -551,7 +555,7 @@ form {
     text-align: center;
     font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     padding: 10px 30px 30px 30px;
 }
 
@@ -565,7 +569,7 @@ form {
 
 td {
     color: #ffffff;
-    font-size: 90%;
+    font-size: 75%;
     line-height: 20px;
     letter-spacing: 1px;
     padding: 5px;
@@ -574,7 +578,7 @@ table {
     width: 75px;
     height: 100%;
     padding: 20px;
-    border-spacing: 10px;
+    border-spacing: 0 10px;
 }
 
 /* Google Map */
