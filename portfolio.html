@@ -76,31 +76,33 @@
                                 alt="Image of a woman in bridal makeover">
                         </div>
                     </div>
-                    </div>
                 </div>
+            </div>
             </div>
             <div class="popup-image">
                 <span>&times</span>
                 <img src="https://i.ibb.co/1G2gR2K/IMG-20240130-222143.jpg"
-                                alt="Image of a woman in grey salwar with makeup">
-            <script>
-                document.querySelectorAll('.column img').forEach(image =>{
-                image.onclick = () =>{
-                document.querySelector('.popup-image').style.display = 'block';
-                document.querySelector('.popup-image img').src = image.getAttribute('src')
-                }
-            });
-            document.querySelector('.popup-image span').onclick = () =>{
-                document.querySelector('.popup-image').style.display = 'none';
-            }
-            </script>
+                    alt="Image of a woman in grey salwar with makeup">
+                <script>
+                    document.querySelectorAll('.column img').forEach(image => {
+                        image.onclick = () => {
+                            document.querySelector('.popup-image').style.display = 'block';
+                            document.querySelector('.popup-image img').src = image.getAttribute('src')
+                        }
+                    });
+                    document.querySelector('.popup-image span').onclick = () => {
+                        document.querySelector('.popup-image').style.display = 'none';
+                    }
+                </script>
         </section>
 
         <!-- Youtube video -->
         <section id="my-work">
-            <h2>My Work</h2>
             <div id="makeup-video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/uxYfxLsUuP0?si=cRJtFA6SG8Koknjn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen> alt="Video of my work with one of the client"></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/uxYfxLsUuP0?si=cRJtFA6SG8Koknjn"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen> alt="Video of my work with one of the client"></iframe>
             </div>
         </section>
     </main>
