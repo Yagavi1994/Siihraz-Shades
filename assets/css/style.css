@@ -104,7 +104,7 @@ main {
 
 /* About Me */
 
-#about h2 {
+#about h1 {
     font-family: 'Karla', sans-serif;
     font-size: 170%;
     color: #3a3a3a;
@@ -170,7 +170,7 @@ main {
     padding: 20px;
 }
 
-#services h2 {
+#services h1 {
     font-family: 'Karla', sans-serif;
     font-size: 170%;
     color: #ffffff;
@@ -301,7 +301,7 @@ main {
 }
 
 /* Reviews */
-#reviews h2 {
+#reviews h1 {
     font-family: 'Karla', sans-serif;
     font-size: 170%;
     color: #3a3a3a;
@@ -333,7 +333,7 @@ main {
     padding-bottom: 80px;
 }
 
-#portfolio h2 {
+#portfolio h1 {
     font-family: 'Karla', sans-serif;
     font-size: 170%;
     color: #ffffff;
@@ -378,7 +378,7 @@ main {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    transition: 1s linear;
+    transition: 1.5s linear;
 
 }
 
@@ -417,12 +417,7 @@ main {
     
 }
 
-/* My Work */
-
-#my-work {
-    background-color: #ffffff;
-    margin: 100px 0;
-}
+/* Makeup Video */
 
 #makeup-video {
     position: relative;
@@ -435,6 +430,31 @@ main {
     position: absolute;
     width: 100%;
     height: 100%;
+}
+
+/* Contact */
+#contact h1 {
+    font-family: 'Karla', sans-serif;
+    font-size: 170%;
+    color: rgba(195, 113, 56, 0.63);
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 30px 30px 5px 30px;
+}
+
+#contact p {
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 25px;
+    font-size: 100%;
+    text-align: center;
+    margin: 0 5px;
+    border-radius: 2%;
+    color: #585656;
+
 }
 
 /* Footer */
@@ -519,7 +539,7 @@ footer {
         margin: 0 20px;
     }
 
-    #about h2 {
+    #about h1 {
         font-size: 200%;
     }
 
@@ -532,7 +552,7 @@ footer {
 
     /* Services */
 
-    #services h2 {
+    #services h1 {
         font-size: 200%;
     }
 
@@ -546,18 +566,15 @@ footer {
     }
 
     /* Reviews */
-    #reviews h2 {
+    #reviews h1 {
         font-size: 200%;
     }
 
     /* Portfolio */
-    #portfolio h2 {
+    #portfolio h1 {
         font-size: 200%;
     }
 
-    #my-work h2 {
-        font-size: 200%;
-}
 
     /* Large Devices like Laptop and Desktop (992px and up) */
 
@@ -596,7 +613,7 @@ footer {
 
     /* About Me */
 
-    #about h2 {
+    #about h1 {
         font-size: 250%;
     }
 
@@ -607,7 +624,7 @@ footer {
 
     /* Services */
 
-    #services h2 {
+    #services h1 {
         font-size: 250%;
     }
 
@@ -619,16 +636,12 @@ footer {
 
     /* Reviews */
 
-    #reviews h2 {
+    #reviews h1 {
         font-size: 250%;
     }
 
     /* Portfolio */
-    #portfolio h2 {
+    #portfolio h1 {
         font-size: 250%;
-    }
-    
-    #my-work h2 {
-            font-size: 250%;
     }
     }
