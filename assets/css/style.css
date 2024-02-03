@@ -466,6 +466,35 @@ main {
     padding-top: 30px;
 }
 
+#name, #phone, #email, #message, #submit {
+    background-color: rgba(195, 113, 56, 0.63);
+    color: #ffffff;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    border-color: rgba(195, 113, 56, 0.63);
+}
+
+input[placeholder="Name"] {
+    color: #ffffff;
+}
+
+textarea {
+    width:100px;
+    margin-left: 5px
+}
+
+form {
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: ;
+}
+
+#form-left {
+    margin: 0 5px;
+}
 /* Contact details */
 
 #contact-details p {
@@ -477,7 +506,7 @@ main {
     text-align: center;
     margin: 0 5px;
     border-radius: 2%;
-    color: #585656;
+    color: #ffffff;
     text-align: left;
 }
 
@@ -506,6 +535,10 @@ main {
 
 #contact-details span {
     line-height: 25px;
+}
+
+#contact-details strong {
+    color: #585656;
 }
 
 /* Footer */
