@@ -107,9 +107,9 @@ main {
 #about h1 {
     font-family: 'Karla', sans-serif;
     font-size: 170%;
-    color: #3a3a3a;
+    color: #585656;
     text-align: center;
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 4px;
     padding: 30px;
@@ -175,7 +175,7 @@ main {
     font-size: 170%;
     color: #ffffff;
     text-align: center;
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 4px;
     padding: 30px;
@@ -304,9 +304,9 @@ main {
 #reviews h1 {
     font-family: 'Karla', sans-serif;
     font-size: 170%;
-    color: #3a3a3a;
+    color: #585656;
     text-align: center;
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 4px;
     padding: 30px;
@@ -338,7 +338,7 @@ main {
     font-size: 170%;
     color: #ffffff;
     text-align: center;
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 4px;
     padding: 30px;
@@ -419,11 +419,16 @@ main {
 
 /* Makeup Video */
 
+#my-work {
+    background-color: #ffffff;
+    margin: 70px 0;
+}
+
 #makeup-video {
     position: relative;
     /* Equals 16:9 ratio */
     padding-bottom: 56.25%;
-    height: 0;       
+    height: 0;     
 }
 
 #makeup-video iframe {
@@ -671,6 +676,15 @@ footer {
         font-size: 200%;
     }
 
+    /* contacts */
+    #contact-details h1 {
+    font-size: 200%;
+    }
+
+    #contact h1 {
+        font-size: 200%;
+    }
+
 
     /* Large Devices like Laptop and Desktop (992px and up) */
 
@@ -740,4 +754,14 @@ footer {
     #portfolio h1 {
         font-size: 250%;
     }
+
+    /* Contact */
+    #contact-details h1 { 
+        font-size: 250%;
+
     }
+
+    #contact h1 {
+        font-size: 250%;
+    }
+}
