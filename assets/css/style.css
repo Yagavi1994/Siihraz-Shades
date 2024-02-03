@@ -559,11 +559,6 @@ footer {
         font-size: 200%;
 }
 
-   /* .popup-image img {
-        width: 95%;
-    } */
-
-
     /* Large Devices like Laptop and Desktop (992px and up) */
 
     @media screen and (min-width: 992px) {
