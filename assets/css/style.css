@@ -470,7 +470,7 @@ main {
     background-color: rgba(195, 113, 56, 0.63);
     color: #ffffff;
     padding: 5px 5px;
-    margin: 5px 5px;
+    margin: 5px 0px;
     border-color: rgba(195, 113, 56, 0.63);
 }
 
@@ -485,11 +485,11 @@ textarea {
 
 form {
     height: 200px;
-    width: 250px;
+    width: 270px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: ;
+    align-items: flex-start;
 }
 
 #form-left {
