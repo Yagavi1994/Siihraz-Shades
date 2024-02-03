@@ -483,6 +483,10 @@ textarea {
     margin-left: 5px
 }
 
+button {
+    width: 60px
+}
+
 form {
     height: 200px;
     width: 270px;
@@ -490,6 +494,14 @@ form {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
+}
+
+#form-right {
+    margin: 0 5px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: baseline;
 }
 
 #form-left {
