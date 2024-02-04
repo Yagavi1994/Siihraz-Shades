@@ -153,7 +153,8 @@ main {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid rgba(195, 113, 56, 0.63);
+    color: rgba(195, 113, 56, 0.63);
 }
 
 /* Services */
@@ -591,6 +592,7 @@ table {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
+    
 }
 
 #google-map iframe {
@@ -729,10 +731,14 @@ footer {
 
     td {
         color: #ffffff;
-        font-size: 100%;
+        font-size: 110%;
         line-height: 20px;
         letter-spacing: 1px;
         padding: 5px;
+    }
+
+    table {
+        border-spacing: 10px;
     }
 
     /* Large Devices like Laptop and Desktop (992px and up) */
@@ -816,9 +822,12 @@ footer {
 
     td {
         color: #ffffff;
-        font-size: 110%;
+        font-size: 120%;
         line-height: 20px;
         letter-spacing: 1px;
         padding: 5px;
+    }
+    table {
+        border-spacing: 10px;
     }
 }
