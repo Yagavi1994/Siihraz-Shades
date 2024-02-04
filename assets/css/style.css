@@ -214,7 +214,7 @@ main {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
-    height: 475px;
+    height: 500px;
     width: 300px;
     background-color: #ffffff;
     border: 10px;
@@ -245,12 +245,11 @@ main {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
-    height: 475px;
+    height: 500px;
     width: 300px;
     background-color: #ffffff;
     border: 10px;
     align-items: center;
-    margin-top: 20px;
 }
 
 #photoshoot-service img {
@@ -278,7 +277,7 @@ main {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
-    height: 475px;
+    height: 500px;
     width: 300px;
     background-color: #ffffff;
     border: 10px;
