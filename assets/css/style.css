@@ -17,7 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #3a3a3a;
+    color: #585656;
     font-family: 'Karla', sans-serif;
 }
 
@@ -200,7 +200,7 @@ main {
     text-align: center;
     margin: 0 5px;
     border-radius: 2%;
-    color: #3a3a3a;
+    color: #585656;
 
 }
 
@@ -330,7 +330,7 @@ main {
     text-align: center;
     margin: 0 5px;
     border-radius: 2%;
-    color: #3a3a3a;
+    color: #585656;
 
 }
 
