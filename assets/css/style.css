@@ -105,7 +105,7 @@ main {
 
 /* About Me */
 
-#about h1 {
+#about h2 {
     font-family: 'Karla', sans-serif;
     font-size: 170%;
     color: #585656;
@@ -173,7 +173,7 @@ main {
     padding: 20px;
 }
 
-#services h1 {
+#services h2 {
     font-family: 'Karla', sans-serif;
     font-size: 170%;
     color: #ffffff;
@@ -308,7 +308,7 @@ main {
 }
 
 /* Reviews */
-#reviews h1 {
+#reviews h2 {
     font-family: 'Karla', sans-serif;
     font-size: 170%;
     color: #585656;
@@ -340,7 +340,7 @@ main {
     padding-bottom: 80px;
 }
 
-#portfolio h1 {
+#portfolio h2 {
     font-family: 'Karla', sans-serif;
     font-size: 170%;
     color: #ffffff;
@@ -396,8 +396,9 @@ main {
 
 .popup-image {
     position: fixed;
-    top:0; left: 0;
-    background: rgba(0,0,0,.9);
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .9);
     height: 100%;
     width: 100%;
     z-index: 100;
@@ -406,7 +407,8 @@ main {
 
 .popup-image span {
     position: absolute;
-    top:0; right: 10px;
+    top: 0;
+    right: 10px;
     font-size: 60px;
     font-weight: bolder;
     color: #ffffff;
@@ -416,12 +418,13 @@ main {
 
 .popup-image img {
     position: absolute;
-    top: 50%; left: 50%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
     height: 80%;
     object-fit: contain;
-    
+
 }
 
 /* Makeup Video */
@@ -435,7 +438,7 @@ main {
     position: relative;
     /* Equals 16:9 ratio */
     padding-bottom: 56.25%;
-    height: 0;     
+    height: 0;
 }
 
 #makeup-video iframe {
@@ -445,7 +448,7 @@ main {
 }
 
 /* Contact */
-#contact h1 {
+#contact h2 {
     font-family: 'Karla', sans-serif;
     font-size: 170%;
     color: rgba(195, 113, 56, 0.63);
@@ -477,7 +480,11 @@ main {
     padding-top: 30px;
 }
 
-#name, #phone, #email, #message, #submit {
+#name,
+#phone,
+#email,
+#message,
+#submit {
     background-color: rgba(195, 113, 56, 0.63);
     color: #ffffff;
     padding: 5px 5px;
@@ -486,7 +493,7 @@ main {
 }
 
 textarea {
-    width:100px;
+    width: 100px;
     margin-left: 5px
 }
 
@@ -497,7 +504,7 @@ button {
 ::placeholder {
     color: #ffffff;
     opacity: 0.7;
-  }
+}
 
 form {
     height: 200px;
@@ -513,12 +520,12 @@ form {
     display: flex;
     align-items: flex-end;
     flex-direction: column;
-    justify-content: baseline;
 }
 
 #form-left {
     margin: 0 5px;
 }
+
 /* Contact details */
 
 #contact-details {
@@ -528,7 +535,7 @@ form {
     padding-left: 10px;
 }
 
-#contact-details h1 {
+#contact-details h2 {
     font-family: 'Karla', sans-serif;
     font-size: 150%;
     color: #ffffff;
@@ -559,6 +566,7 @@ td {
     padding: 5px;
     object-fit: contain;
 }
+
 table {
     position: relative;
     display: block;
@@ -580,7 +588,7 @@ table {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
-    
+
 }
 
 #google-map iframe {
@@ -593,20 +601,20 @@ table {
 /* Footer */
 footer {
     background-color: rgba(47, 52, 48, 0.8);
+}
 
-    #social-media {
-        display: flex;
-        justify-content: space-evenly;
-        text-align: center;
-        padding: 20px 0;
-        list-style: none;
-    }
+#social-media {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 20px 0;
+    list-style: none;
+}
 
-    #social-media i {
-        font-size: 160%;
-        padding: 5%;
-        color: #ffffff;
-    }
+#social-media i {
+    font-size: 160%;
+    padding: 5%;
+    color: #ffffff;
 }
 
 /* Media query for tablet and larger screen 768px and up */
@@ -672,7 +680,7 @@ footer {
         margin: 0 20px;
     }
 
-    #about h1 {
+    #about h2 {
         font-size: 200%;
     }
 
@@ -685,7 +693,7 @@ footer {
 
     /* Services */
 
-    #services h1 {
+    #services h2 {
         font-size: 200%;
     }
 
@@ -699,21 +707,21 @@ footer {
     }
 
     /* Reviews */
-    #reviews h1 {
+    #reviews h2 {
         font-size: 200%;
     }
 
     /* Portfolio */
-    #portfolio h1 {
+    #portfolio h2 {
         font-size: 200%;
     }
 
     /* contacts */
-    #contact-details h1 {
-    font-size: 200%;
+    #contact-details h2 {
+        font-size: 200%;
     }
 
-    #contact h1 {
+    #contact h2 {
         font-size: 200%;
     }
 
@@ -767,7 +775,7 @@ footer {
 
     /* About Me */
 
-    #about h1 {
+    #about h2 {
         font-size: 250%;
     }
 
@@ -778,7 +786,7 @@ footer {
 
     /* Services */
 
-    #services h1 {
+    #services h2 {
         font-size: 250%;
     }
 
@@ -790,22 +798,22 @@ footer {
 
     /* Reviews */
 
-    #reviews h1 {
+    #reviews h2 {
         font-size: 250%;
     }
 
     /* Portfolio */
-    #portfolio h1 {
+    #portfolio h2 {
         font-size: 250%;
     }
 
     /* Contact */
-    #contact-details h1 { 
+    #contact-details h2 {
         font-size: 250%;
 
     }
 
-    #contact h1 {
+    #contact h2 {
         font-size: 250%;
     }
 
@@ -817,6 +825,7 @@ footer {
         letter-spacing: 2px;
         padding: 5px;
     }
+
     table {
         border-spacing: 10px;
     }

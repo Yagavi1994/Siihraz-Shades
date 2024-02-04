@@ -9,7 +9,7 @@
     <!-- Title -->
     <title>Siihraz Shades</title>
     <!-- Icon -->
-    <link rel="short icon" type="page-icon" href="https://i.ibb.co/2kM6TVH/Logo-Eye.png">
+    <link rel="short icon" type="mage/png" href="https://i.ibb.co/2kM6TVH/Logo-Eye.png">
     <!-- Stylesheet -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -34,7 +34,7 @@
     <!-- Main Content -->
     <main>
         <section id="portfolio">
-            <h1>Portfolio</h1>
+            <h2>Portfolio</h2>
             <div class="container">
                 <div class="photo-gallery">
                     <div class="column">
@@ -79,33 +79,33 @@
                     </div>
                 </div>
             </div>
-            </div>
             <div class="popup-image">
-                <span>&times</span>
+                <span>&times;</span>
                 <img src="https://i.ibb.co/1G2gR2K/IMG-20240130-222143.jpg"
                     alt="Image of a woman in grey salwar with makeup">
-                <script>
-                    document.querySelectorAll('.column img').forEach(image => {
-                        image.onclick = () => {
-                            document.querySelector('.popup-image').style.display = 'block';
-                            document.querySelector('.popup-image img').src = image.getAttribute('src')
-                        }
-                    });
-                    document.querySelector('.popup-image span').onclick = () => {
-                        document.querySelector('.popup-image').style.display = 'none';
+            </div>
+            <script>
+                document.querySelectorAll('.column img').forEach(image => {
+                    image.onclick = () => {
+                        document.querySelector('.popup-image').style.display = 'block';
+                        document.querySelector('.popup-image img').src = image.getAttribute('src')
                     }
-                </script>
+                });
+                document.querySelector('.popup-image span').onclick = () => {
+                    document.querySelector('.popup-image').style.display = 'none';
+                }
+            </script>
         </section>
 
         <!-- Youtube video -->
-        <section id="my-work">
+        <div id="my-work">
             <div id="makeup-video">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/uxYfxLsUuP0?si=cRJtFA6SG8Koknjn"
-                    title="YouTube video player" frameborder="0"
+                    title="YouTube video player"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen> alt="Video of my work with one of the client"></iframe>
+                    allowfullscreen></iframe>
             </div>
-        </section>
+        </div>
     </main>
 
     <!-- Footer -->
@@ -121,7 +121,8 @@
                     aria-label="Visit our Youtube Page (Opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
             </li>
             <li><a href="https://twitter.com/?lang=en" target="_blank" rel="no-opener"
-                    aria-label="Visit our Twitter Page (Opens in a new tab)"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+                    aria-label="Visit our Twitter Page (Opens in a new tab)"><i
+                        class="fa-brands fa-square-x-twitter"></i></a></li>
         </ul>
     </footer>
 
