@@ -462,7 +462,6 @@ main {
     font-size: 100%;
     text-align: center;
     margin: 0 5px;
-    border-radius: 2%;
     color: #585656;
 
 }
@@ -482,10 +481,6 @@ main {
     padding: 5px 5px;
     margin: 5px 0px;
     border-color: rgba(195, 113, 56, 0.63);
-}
-
-input[placeholder="Name"] {
-    color: #ffffff;
 }
 
 textarea {
@@ -524,19 +519,6 @@ form {
 }
 /* Contact details */
 
-#contact-details p {
-    font-family: 'Karla', sans-serif;
-    font-weight: 300;
-    letter-spacing: 1px;
-    line-height: 15px;
-    font-size: 100%;
-    text-align: center;
-    margin: 0 5px;
-    border-radius: 2%;
-    color: #ffffff;
-    text-align: left;
-}
-
 #contact-details {
     padding: 20px 0;
     background-color: rgba(195, 113, 56, 0.63);
@@ -557,23 +539,26 @@ form {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 3px;
-    padding: 10px 30px 20px 30px;
-}
-
-#contact-details span {
-    line-height: 25px;
+    padding: 10px 0;
 }
 
 #contact-details strong {
     color: #585656;
 }
 
+#contact-info {
+    width: 100%;
+    overflow-x: scroll;
+}
+
 td {
     color: #ffffff;
-    font-size: 75%;
-    line-height: 20px;
+    font-weight: 300;
+    font-size: 100%;
+    line-height: 25px;
     letter-spacing: 1px;
     padding: 5px;
+    object-fit: contain;
 }
 table {
     width: 75px;
@@ -731,9 +716,10 @@ footer {
 
     td {
         color: #ffffff;
+        font-weight: 300;
         font-size: 110%;
-        line-height: 20px;
-        letter-spacing: 1px;
+        line-height: 25px;
+        letter-spacing: 2px;
         padding: 5px;
     }
 
@@ -822,9 +808,10 @@ footer {
 
     td {
         color: #ffffff;
+        font-weight: 300;
         font-size: 120%;
-        line-height: 20px;
-        letter-spacing: 1px;
+        line-height: 25px;
+        letter-spacing: 2px;
         padding: 5px;
     }
     table {
