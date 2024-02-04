@@ -65,7 +65,7 @@ header a {
     color: black;
 }
 
-/* Nav toggle dropdown list*/
+/* Nav toggle dropdown list - Learnt the code from Walkthrough project */
 nav {
     position: absolute;
     width: 100%;
@@ -436,7 +436,7 @@ main {
 
 #makeup-video {
     position: relative;
-    /* Equals 16:9 ratio */
+    /* Equals 16:9 ratio - Learnt from a YouTube Tutorial */
     padding-bottom: 56.25%;
     height: 0;
 }
