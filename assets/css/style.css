@@ -219,6 +219,7 @@ main {
     background-color: #ffffff;
     border: 10px;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 #bridal-service img {
@@ -250,6 +251,7 @@ main {
     background-color: #ffffff;
     border: 10px;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 #photoshoot-service img {
@@ -525,11 +527,6 @@ form {
     margin: 40px 0;
     padding-left: 10px;
 }
-#contact-info {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
 
 #contact-details h1 {
     font-family: 'Karla', sans-serif;
@@ -549,6 +546,8 @@ form {
 #contact-info {
     width: 100%;
     overflow-x: scroll;
+    display: flex;
+    align-items: center;
 }
 
 td {
@@ -563,7 +562,7 @@ td {
 table {
     position: relative;
     display: block;
-    width: fit-content;
+    width: 500px;
     height: 100%;
     padding: 20px;
     border-spacing: 0 10px;
