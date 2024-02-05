@@ -636,15 +636,15 @@ table {
 
 #message-container {
 margin: auto;
-width: 80vw;
-height: 80vw;
+width: 120vw;
+height: 100vw;
 max-width: 350px; 
 max-height: 350px;
 display: flex;
 align-items: center;
 flex-wrap: wrap;
 justify-content: center; 
-background-color: rgba(195, 113, 56, 0.63);
+background-image: url(https://i.ibb.co/rsv65Td/fashionista-makeup-banner.jpg) ;
 margin: 30px 30px;
 border-radius: 30px;
 }
