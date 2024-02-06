@@ -18,6 +18,7 @@ The Siihraz Shades Makeover site is live, the link to which can be found [HERE](
   + [Current User Goals](#current-user-goals "Current User Goals")
   + [New User Goals](#new-user-goals "New User Goals")
 + [Design](#design "Design")
+  + [Wireframe](#wireframes "Wireframes")
   + [Colour Scheme](#colour-scheme "Colour Scheme")
   + [Typography](#typography "Typography")
   + [Imagery](#imagery "Imagery")
