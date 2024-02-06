@@ -128,7 +128,7 @@ main {
     border-radius: 2%;
     color: #ffffff;
     max-width: 660px;
-    max-height: 300px;
+    max-height: 500px;
 
 }
 
@@ -151,6 +151,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #about-me-image {
@@ -570,7 +571,7 @@ form {
 
 td {
     color: #ffffff;
-    font-weight: 350;
+    font-weight: 450;
     font-size: 100%;
     line-height: 25px;
     letter-spacing: 2px;
@@ -780,6 +781,7 @@ footer {
         border-radius: 2%;
         padding: 50px 20px;
         line-height: 20px;
+        margin-top: 40px;
     }
 
     /* Services */
@@ -879,6 +881,13 @@ footer {
     #about-content em {
         padding: 80px 20px;
         line-height: 30px;
+    }
+
+    #about-me-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
     }
 
     /* Services */
