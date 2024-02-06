@@ -97,7 +97,7 @@ main {
 
 /* Logo Image */
 #logo-image img {
-    height: 200px;
+    height: 100%;
     width: 100%;
 }
 
@@ -127,6 +127,8 @@ main {
     margin: 0 5px;
     border-radius: 2%;
     color: #ffffff;
+    max-width: 660px;
+    max-height: 300px;
 
 }
 
@@ -145,10 +147,17 @@ main {
     border: 2px solid #585656;
 }
 
+#about-me-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #about-me-image {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .active {
@@ -198,7 +207,7 @@ main {
     text-align: center;
     margin: 0 5px;
     border-radius: 2%;
-    color: #585656;
+    color: #3a3a3a;
 
 }
 
@@ -331,7 +340,7 @@ main {
     text-align: center;
     margin: 0 5px;
     border-radius: 2%;
-    color: #585656;
+    color: #3a3a3a;
 
 }
 
@@ -750,12 +759,6 @@ footer {
         margin-top: 70px;
     }
 
-    /* Logo Image */
-    #logo-image img {
-        height: 550px;
-        width: 100%;
-    }
-
     /* About Me */
 
     #about-me-flex {
@@ -865,11 +868,6 @@ footer {
             margin-top: 83px;
         }
 
-        /* Logo Image */
-        #logo-image img {
-            height: 700px;
-            width: 100%;
-        }
     }
 
     /* About Me */
