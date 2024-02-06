@@ -65,7 +65,7 @@ and keeps their focus on the site.
 ## Design
 
 ### Wireframes:
-I took inspiration from a template in wix.com website. [Click Here]("https://www.wix.com/website-template/view/html/2104?originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%3Fcriteria%3DMake-up%2BArtist%26dashboardFirstMetaSiteId%3D1acdd41c-b62d-4aa7-93e9-2e95ac2a6cd9&tpClick=view_button&esi=b545a6b4-a951-441b-96b7-a55ea89b3cee&dashboardFirstMetaSiteId=1acdd41c-b62d-4aa7-93e9-2e95ac2a6cd9") To view that template. I designed many features of my website with reference to this template. The portfolio and the contact pages were inspired from this one. This template acted as a guideline for me.
+I took inspiration from a template in wix.com website. ![Click Here](https://www.wix.com/website-template/view/html/2104?originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%3Fcriteria%3DMake-up%2BArtist%26dashboardFirstMetaSiteId%3D1acdd41c-b62d-4aa7-93e9-2e95ac2a6cd9&tpClick=view_button&esi=b545a6b4-a951-441b-96b7-a55ea89b3cee&dashboardFirstMetaSiteId=1acdd41c-b62d-4aa7-93e9-2e95ac2a6cd9) To view that template. I designed many features of my website with reference to this template. The portfolio and the contact pages were inspired from this one. This template acted as a guideline for me.
 
 ### Colour Scheme:
 I wanted my colour palette to communicate makeup. So, I used two colors which are used majorly in makeup industry, that is caramel brown and charcoal grey, which also contrasted well with white background.
