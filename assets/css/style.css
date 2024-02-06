@@ -458,6 +458,7 @@ main {
 }
 
 /* Contact */
+
 #contact h2 {
     font-family: 'Karla', sans-serif;
     font-size: 170%;
@@ -637,7 +638,6 @@ table {
     max-width: 650px;
     width: 90%;
     height: 90%;
-    box-shadow: 10px 10px 2px #3a3a3a;
     background-color: #fffffff1;
 }
 
