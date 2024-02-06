@@ -600,6 +600,12 @@ table {
 
 /* Thank You Page */
 
+#th-page {
+    background-image: url(https://i.ibb.co/9hTpfXj/different-cosmetics-types-scattered-pink-table.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+
 #thankyou-page {
     display: flex;
     align-items: center;
@@ -622,6 +628,7 @@ table {
     width: 90%;
     height: 90%;
     box-shadow: 10px 10px 2px #3a3a3a;
+    background-color: #fffffff1;
 }
 
 #thank-you img {
@@ -644,7 +651,8 @@ display: flex;
 align-items: center;
 flex-wrap: wrap;
 justify-content: center; 
-background-image: url(https://i.ibb.co/rsv65Td/fashionista-makeup-banner.jpg) ;
+background-color: #d190c1f8;
+opacity: 100;
 margin: 30px 30px;
 border-radius: 30px;
 }
