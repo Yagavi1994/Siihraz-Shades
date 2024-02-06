@@ -601,7 +601,7 @@ table {
 /* Thank You Page */
 
 #th-page {
-    background-image: url(https://i.ibb.co/9hTpfXj/different-cosmetics-types-scattered-pink-table.jpg);
+    background-image: url(https://i.ibb.co/P1TTwwc/different-cosmetics-scattered-beige-table.jpg);
     background-repeat: no-repeat ;
     background-size: cover;
 }
@@ -621,8 +621,8 @@ table {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 0 10px;
-    border: 5px double #585656;
+    margin: 30px 10px;
+    border: 10px double #585656;
     max-height: 850px;
     max-width: 650px;
     width: 90%;
@@ -651,7 +651,7 @@ display: flex;
 align-items: center;
 flex-wrap: wrap;
 justify-content: center; 
-background-color: #d190c1f8;
+background-color: rgba(195, 113, 56, 0.63);
 opacity: 100;
 margin: 30px 30px;
 border-radius: 30px;
