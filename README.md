@@ -48,8 +48,6 @@ The audience of this website are women who seeks makeup artist for special occas
 ### Communication:
 I wanted this page to communicate makeup in every way possible. So, I made sure everything looked simple, professional and classy. Chose the color palette, fonts, pictures and page styling with the same intention.
 
-(used two colors which are used majorly in makeup industry, that is caramel brown and dark grey which contrasted well with white background. Another major thing used for communication is images. I used all very high quality and attractive images of the makeup artist's work to attract audiences. I used 'Karla' font since it was simple, professional and classy which complimented well to the color palette and images.)
-
 ### Current User Goals:
 - To see the work of the makeup artist and contact her.
 
@@ -65,16 +63,18 @@ and keeps their focus on the site.
 
 ## Design
 
+### Wireframes:
+I took inspiration from a template in wix.com website. [Click Here]("https://www.wix.com/website-template/view/html/2104?originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%3Fcriteria%3DMake-up%2BArtist%26dashboardFirstMetaSiteId%3D1acdd41c-b62d-4aa7-93e9-2e95ac2a6cd9&tpClick=view_button&esi=b545a6b4-a951-441b-96b7-a55ea89b3cee&dashboardFirstMetaSiteId=1acdd41c-b62d-4aa7-93e9-2e95ac2a6cd9") To view that template. I designed many features of my website with reference to this template. The portfolio and the contact pages were inspired from this one. This template acted as a guideline for me.
+
 ### Colour Scheme:
-The colour palette was created with the thought to provide as much contrast as possible, without feeling overwhelming. Most of the colour is primarily provided by the supporting images displayed across the site. However text & backgrounds were generated in a charcoal grey, and a very subtle, almost white shade of pink. The combination of the two, whilst striking, does not overwhelm the user. Two additional colours were used in a very vibrant pink & blue, and reserved only for the hover features over navigation and social links, to bring the users immediate attention to the fact that there is something there to be clicked.
-![Colour Palette](/assets/images-readme/colour-palette.png)
+I wanted my colour palette to communicate makeup. So, I used two colors which are used majorly in makeup industry, that is caramel brown and charcoal grey, which also contrasted well with white background.
+![Colour Palette](Insert link of the color palette images)
 
 ### Typography:
-Cabin Sketch was selected for the main heading on each of the pages, accompanied by Special Elite. Both of these fonts bring to mind writing on a chalkboard, which is a common theme for displaying ever evolving menus and specials. A third font, Raleway was also added to enforce concepts throughout, and was used to display the words “Food Truck”, so remind the user that this is a restaurant on wheels.
+I used 'Karla' font, since it was simple, professional and classy. It complimented well to the color palette and images. All the headings and paragraphs were used 'Karla' font with different font-weight and colours. The two font colors used were charcoal grey and white to keep it simple and readable.
 
 ### Imagery:
-All the imagery on the site, excluding the Hero image was sources from free stock photo platforms. The Hero image has been credited in the Credits section of this document and was sourced from a google search to find the perfect introductory image that immediately imparts to the user what the purpose of the site is. Each additional photo added has aimed at supporting the theme of the site, and reiterates to the user that this is about food and social gathering.
-Two supplementary PNGs were all used to help the overall design aspect of the site. These were created by me in Adobe Illustrator.
+Apart from the Home page's cover image and Thank you page's background image, all the image are own images of the makeup artist. I chose few of the best pictures of herself and her work from her gallery which may look well for the website. Home page's cover image was taken from Google and Thank you page's background image was taken from free pik website.
 
 ## Features
 
