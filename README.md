@@ -24,9 +24,11 @@ The Siihraz Shades Makeover site is live, the link to which can be found [HERE](
   + [Imagery](#imagery "Imagery")
 + [Features](#features "Features")
   + [Landing Page](#landing-page "Landing Page")
-  + [Portfolio] (#portfolio "Portfolio")
-  + [Contact] (#contact "Contact")
+  + [Portfolio](#portfolio "Portfolio")
+  + [Contact](#contact "Contact")
+  + [Footer](#footer "Footer")
   + [Existing Features](#existing-features "Existing Features")
+  + [Future Features](#future-features "Future Features")
 + [Testing](#testing "Testing")
   + [Validator Testing](#validator-testing "Validator Testing")
   + [Unfixed Bugs](#unfixed-bugs "Unfixed Bugs")
@@ -34,9 +36,12 @@ The Siihraz Shades Makeover site is live, the link to which can be found [HERE](
   + [Main Languages Used](#main-languages-used "Main Languages Used")
   + [Frameworks, Libraries & Programs Used](#frameworks-libraries-programs-used "Frameworks, Libraries & Programs Used")
 + [Deployment](#deployment "Deployment")
+  + [How to Fork](#how-to-fork "How to Fork")
+  + [How to Clone](#how-to-clone "How to Clone")
 + [Credits](#credits "Credits")
   + [Content](#content "Content")
   + [Media](#media "Media")
+  + [Youtube](#youtube "Youtube")
 
 ## UX
 
@@ -121,6 +126,8 @@ A 'form dump' page has also been included upon the instruction of the mentor who
 
 ![Contact-form-form-dump-page](Insert thank you page)
 
+#### Footer:
+
 #### Social Links:
 Links to the makeup artists social media pages can be found on the bottom of each page at the footer, & each one will take the user to the respective social media platform in a new tab.
 
@@ -162,27 +169,27 @@ After a review of the project with my mentor, we decided it would be better to t
 
 Issues with placement of the images next to the descriptions was also resolved once I changed the flex rules applied, and removed any unnecessary pagging from around the parent element.
 
-### Validator Testing
+### Validator Testing:
 - HTML files pass through the [W3C validator](https://validator.w3.org/) with no issues found.
-![W3C validator message](/assets/images-readme/validator-html.png)
+![W3C validator message](Insert html validator screenshot)
 
 - CSS files pass through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found.
-![Jigsaw validator message](/assets/images-readme/validator-css.png)
+![Jigsaw validator message](Insert css validator image)
 
-- Page has an excellent Accessibility rating in Lighthouse
-![Accessibility score](/assets/images-readme/accessibility-score.png)
+- Page has a great Accessibility rating in Lighthouse
+![Lighthouse score](Insert lighthouse score)
 
 - Tested the site opens in Chrome & Safari without issues.
 - All links open to external pages as intended.
 
-### Unfixed Bugs
+### Unfixed Bugs:
 
 ## Technologies Used
-### Main Languages Used
+### Main Languages Used:
 - HTML5
 - CSS3
 
-### Frameworks, Libraries & Programs Used
+### Frameworks, Libraries & Programs Used:
 - Google Fonts - for the font families: Karla was used for font. San-serif was used as a default font.
 - Font Awesome - to add icons to the social links in the footer element.
 - GitPod - to creat my html files & styling sheet before pushing the project to Github.
@@ -200,12 +207,12 @@ Issues with placement of the images next to the descriptions was also resolved o
 6. Your page should refresh automatically or manually with a link to your deployed website. 
 7. The link can be found here: [Siihraz Shades](https://yagavi1994.github.io/Siihraz-Shades/)
 
-### How to Fork
+### How to Fork:
 - Log in (or sign up) to [Github](https://github.com/).
 - Go to respository for this project [Siihraz-Shades](https://github.com/Yagavi1994/Siihraz-Shades).
 - Click the fork button in the top right corner.
 
-### How to Clone
+### How to Clone:
 - Log in (or sign up) to [Github](https://github.com/).
 - Go to respository for this project [Siihraz-Shades](https://github.com/Yagavi1994/Siihraz-Shades).
 - Click on the code button, select whether you would like to clone with HTTPS, SSH, GitHub CLI and copy the link shown.
@@ -215,7 +222,7 @@ Issues with placement of the images next to the descriptions was also resolved o
 
 ## Credits
 
-### Content
+### Content:
 As my knowledge of implementation is limited at this point in my learning, the initial set up & style was set loosely on the 'Love Running' walk-through project. From there, I took inspiration for the design of the navigation bar, along with the display of the social links in the footer element.
 
 The styling of the form element in 'Love Running' was used as a starting point for my form to help remember all categories that needed to be addressed.
@@ -247,7 +254,7 @@ Stackoverflow [Reply](https://stackoverflow.com/questions/4888377/how-to-add-a-b
 
 Support was provided by my fellow student [Mats](https://github.com/Pelikantapeten/p1-nacka-tomato-society) by aiding me in bouncing off ideas & venting frustrations. They were also immeasurably helpful in explaining Media Queries in a way that I was able to grasp. They also informed me that when creating a contact form, one most also create a form-dump page.
 
-### Media
+### Media:
 - Hero image is called ["Food Truck in the Street"](https://www.thebalancesmb.com/thmb/IRZI2gmNsYFTTPCH774ohMD4uJE=/2088x1436/filters:fill(auto,1)/food-truck-in-the-street-496731672-863bfb69328341c1804fec18e39be715.jpg) by Maica
 
 The following images came from Pexel:
@@ -261,3 +268,5 @@ The following images came from Pexel:
 
 Stocksnap supplied this one:
 - [Photo by Bruce Mars - vegetable stand](https://stocksnap.io/photo/vegetable-stall-KZ19NV9MVY)
+
+### Youtube:
