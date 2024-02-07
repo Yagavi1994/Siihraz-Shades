@@ -65,7 +65,7 @@ and keeps their focus on the site.
 ## Design
 
 ### Wireframes:
-I took inspiration from a template in wix.com website. ![Click Here](https://www.w3schools.com/css/css3_shadows_box.asp) To view that template. I designed many features of my website with reference to this template. The portfolio and the contact pages were inspired from this one. This template acted as a guideline for me.
+I took inspiration from a template in wix.com website. [Click Here](https://www.w3schools.com/css/css3_shadows_box.asp) To view that template. I designed many features of my website with reference to this template. The portfolio and the contact pages were inspired from this one. This template acted as a guideline for me.
 
 ### Colour Scheme:
 I wanted my colour palette to communicate makeup. So, I used two colors which are used majorly in makeup industry, that is caramel brown and charcoal grey, which also contrasted well with white background.
