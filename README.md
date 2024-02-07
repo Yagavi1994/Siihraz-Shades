@@ -94,7 +94,7 @@ This is included across all three pages, and provides people with an easy refere
 ![Navigation bar](Insert screenshot of your navigation bar)
 
 #### Landing Page:
-The landing page has the Logo Image which was downloaded from pngtree website in google for free. It is displayed like a cover image at the top of the Home page.
+The landing page has the Logo Image which is displayed like a cover image at the top of the Home page.
 
 I photoshopped the image with the official logo of the makeup artists company Siihraz Shades Makeover in it. The logo image defines the feel of the website, providing the user with an image that they can easily associate to what the company is & does.
 
@@ -132,6 +132,9 @@ A 'form dump' page has also been included upon the instruction of the mentor who
 Links to the makeup artists social media pages can be found on the bottom of each page at the footer, & each one will take the user to the respective social media platform in a new tab.
 
 ![Social-Links](Insert image of the footer)
+
+#### Footer Comment:
+A comment has been added to the footer to indicate that the site is intended for educational purposes only. This has been done as the logo-image used was sourced from a google search, and I do not have the rights to the image. The image has been credited in this document.
 
 ### Future Features:
 - Upgraded gallery with left and right buttons to navigate between images.
