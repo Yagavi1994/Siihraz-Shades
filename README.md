@@ -29,7 +29,7 @@ The Siihraz Shades Makeover site is live, the link to which can be found [HERE](
   + [Portfolio](#portfolio "Portfolio")
   + [Contact](#contact "Contact")
   + [Footer](#footer "Footer")
-  + [404 Error Page](#404-error-page "404 Error Page)
+  + [404 Error Page](#404-error-page "404 Error Page")
   + [Existing Features](#existing-features "Existing Features")
   + [Future Features](#future-features "Future Features")
 + [Testing and Challenges](#testing-and-challenges "Testing and Challenges")
@@ -171,7 +171,7 @@ I have also added a customised 404 error page which can be seen when the url get
 - I tested my website in all 3 screen sizes and which seems to work without any error.
 - I tested all my external links which also opens fine in the seperate tabs.
 - All my images seems to load perfectly without any delay in all browsers and devices.
-- I tested my codes in validator, initially there was few errors about not to use <h1> anywhere other than main heading, stray tags, to use div instead of sections etc., and I corrected all those errors and recieved pass in the same for both HTML and CSS.
+- I tested my codes in validator, initially there was few errors about not to use "h1" anywhere other than main heading, stray tags, to use div instead of sections etc., and I corrected all those errors and recieved pass in the same for both HTML and CSS.
 
 
 ### Validator Testing:
