@@ -5,7 +5,7 @@ The targeted audience of this website are women who seeks makeup artist for spec
 
 
 
-![Site view across devices](Insert link of site view in various devices)
+![Site view across devices](https://i.ibb.co/PGj2cw9/Webiste-layout-mock-up.pngdevices)
 
 The Siihraz Shades Makeover site is live, the link to which can be found [HERE](https://yagavi1994.github.io/Siihraz-Shades/)
 
@@ -76,8 +76,9 @@ and keeps their focus on the site.
 I took inspiration from a template in wix.com website. [Click Here](https://rb.gy/384srs) To view that template. I designed many features of my website with reference to this template. The portfolio and the contact pages were inspired from this one. This template acted as a guideline for me.
 
 ### Colour Scheme:
-I wanted my colour palette to communicate makeup. So, I used two colors which are used majorly in makeup industry, that is caramel brown and charcoal grey, which also contrasted well with white background.
-![Colour Palette](Insert link of the color palette images)
+I wanted my colour palette to communicate makeup. So, I used two colors which are used majorly in makeup industry, that is caramel brown and charcoal grey, which also contrasted well with white background. Used [Rgba Color Picker](https://rgbacolorpicker.com/) to pick the colors.
+![Colour Palette](https://i.ibb.co/rbVRHmm/Screenshot-2024-02-08-at-10-32-13-am.png)
+(https://i.ibb.co/pJxCg45/Screenshot-2024-02-08-at-10-31-14-am.png)
 
 ### Typography:
 I used 'Karla' font, since it was simple, professional and classy. It complimented well to the color palette and images. All the headings and paragraphs were used 'Karla' font with different font-weight and colours. The two font colors used were charcoal grey and white to keep it simple and readable.
@@ -120,7 +121,7 @@ The portfolio page consists of masonry grid of images of makeup artist's clients
 ![Portfolio](Insert Portfolio page image)
 
 #### Contact:
-The contact page consists of form to fill for the client to reach out to the makeup artist for consultation and below that ther is contact information of the makeup artist to book an appointment with her. A google map of her location is added below it.
+The contact page consists of form to fill for the client to reach out to the makeup artist for consultation and below that ther is contact information of the makeup artist to book an appointment with her. In small devices like mobile I have added scroll bar for the contact information since the mail id and address seems to very large for small screens. A google map of her location is added below it.
 
 A 'form dump' page has also been included upon the instruction of the mentor who informed me that it was necessary if a form was added to the project. The form-dump page appears as follows...
 
@@ -200,6 +201,7 @@ Issues with placement of the images next to the descriptions was also resolved o
 - Adobe Photoshop - were used to edit images and create mockups of the project in various devices.
 - Favicon - to provide the code & image for the icon in the tab bar.
 - Imgbb - to host my images, since directly adding my images to assets was not working as the size of images were huge.
+- Rgbacolorpicker - to pick color for the website.
 
 ## Deployment
 1. In the GitHub repositories, navigate your way to the settings tab
