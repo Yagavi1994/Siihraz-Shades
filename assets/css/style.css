@@ -499,9 +499,9 @@ main {
 #submit {
     background-color: rgba(195, 113, 56, 0.63);
     color: #ffffff;
-    padding: 5px 5px;
+    padding: 7px 5px;
     margin: 5px 0px;
-    border-color: rgba(195, 113, 56, 0.63);
+    border: none;
 }
 
 textarea {
@@ -663,7 +663,7 @@ align-items: center;
 flex-wrap: wrap;
 justify-content: center; 
 background-color: rgba(230, 163, 107, 0.73);
-opacity: 100;
+opacity: 1;
 margin: 30px 30px;
 border-radius: 30px;
 }
@@ -978,7 +978,7 @@ footer {
     /* Thank You Page */
 
     #message-container h2 {
-        font-family: 300%;
+        font-size: 300%;
     }
 
     #message-container p {

@@ -186,7 +186,10 @@ Issues with placement of the images next to the descriptions was also resolved o
 
 ### Validator Testing:
 - HTML files pass through the [W3C validator](https://validator.w3.org/) with no issues found.
-![W3C validator message](Insert html validator screenshot)
+   - ![Result for index.html](Insert html validator screenshot)
+   - ![Result for portfolio.html](Insert html validator screenshot)
+   - ![Result for contact.html](Insert html validator screenshot)
+   - ![Result for thankyou.html](Insert html validator screenshot)
 
 - CSS files pass through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found.
 ![Jigsaw validator message](Insert css validator image)
