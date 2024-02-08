@@ -31,7 +31,7 @@ The Siihraz Shades Makeover site is live, the link to which can be found [HERE](
   + [Footer](#footer "Footer")
   + [Existing Features](#existing-features "Existing Features")
   + [Future Features](#future-features "Future Features")
-+ [Testing](#testing "Testing")
++ [Testing and Challenges](#testing-and-challenges "Testing and Challenges")
   + [Validator Testing](#validator-testing "Validator Testing")
   + [Unfixed Bugs](#unfixed-bugs "Unfixed Bugs")
 + [Technologies Used](#technologies-used "Technologies Used")
@@ -130,9 +130,9 @@ The portfolio page consists of masonry grid of images of makeup artist's clients
 #### Contact:
 The contact page consists of form to fill for the client to reach out to the makeup artist for consultation and below that ther is contact information of the makeup artist to book an appointment with her. In small devices like mobile I have added scroll bar for the contact information since the mail id and address seems to very large for small screens. A google map of her location is added below it.
 
-[Contact Form](https://i.ibb.co/z2pfxdX/Screenshot-2024-02-08-at-11-44-12-am.png)
-[Contact Information](https://i.ibb.co/47D3s21/Screenshot-2024-02-08-at-10-52-10-am.png)
-[Google Maps](https://i.ibb.co/413TbGV/Screenshot-2024-02-08-at-10-52-29-am.png)
+![Contact Form](https://i.ibb.co/z2pfxdX/Screenshot-2024-02-08-at-11-44-12-am.png)
+![Contact Information](https://i.ibb.co/47D3s21/Screenshot-2024-02-08-at-10-52-10-am.png)
+![Google Maps](https://i.ibb.co/413TbGV/Screenshot-2024-02-08-at-10-52-29-am.png)
 
 A 'form dump' page has also been included upon the instruction of the mentor who informed me that it was necessary if a form was added to the project. The form-dump page appears as follows...
 
@@ -148,6 +148,9 @@ Links to the makeup artists social media pages can be found on the bottom of eac
 #### Footer Comment:
 A comment has been added to the footer to indicate that the site is intended for educational purposes only. This has been done as the logo-image used was sourced from a google search, and I do not have the rights to the image. The image has been credited in this document.
 
+#### 404 Error Page:
+I have also added a customised 404 error page which can be seen when the url gets broken or failed to load for any reason.
+
 ### Future Features:
 - Upgraded gallery with left and right buttons to navigate between images.
 - A calender page of the artist to check her availability.
@@ -155,34 +158,20 @@ A comment has been added to the footer to indicate that the site is intended for
 - To update with discounts during seasonal time.
 - More rich and classy looking website.
 
-## Testing
-The Social links appeared to be connected with a hyphen that would open one of the social platforms in a new tab. I could not understand what had occured. After much deliberation & viewing the style rules one by one, making adjustments or removing them altogether, I fixed the issue by changing the display from "inline" to "inline-block".
+## Testing and Challenges:
+- I came across many challenges while creating this website. One of the major challenge which I kept facing again and again was positioning the contents in the centre of the page. Then after many trial and errors, I learned to create a parent div and give flex values to it helped me to centre the content in many places.
+- I was confused at many places about what unit to use for size of the contents. Then I figured out using percentage helps in places where responsiveness is needed and in other places I mostly went with pixels.
+- Initially I struggled a lot with images since it was not uploading when I added it to the Images folder and used it's relative path. Then I remebered studying somewhere in lessons about image hosting site. And I googled and came across "Imgbb.com" website for image hosting, which helped with all my image issues.
+- Whenever I felt like my code is not giving the desired style I want, I would google my query and mostly I would find my answer in it.
+- For Portfolio I wanted to create a gallery which when clicked should open and display the full image. I found a YouTube tutorial for the same and followed it to achieve the desired result.
+- Similarly, to create the Masonry Grid of my Portfolio too I followed a YouTube tutorial.
+- In contact page, the contact information was too long for small screens, so when was confused about what to do, got an idea of adding scroll bar to overflowing content which was learnt in lessons helped.
+- I was not aware of form-dump page when clicked submit in the form, my mentor Martina pointed that out and after which I added a form-dump page to my form.
+- I tested my website in all 3 screen sizes and which seems to work without any error.
+- I tested all my external links which also opens fine in the seperate tabs.
+- All my images seems to load perfectly without any delay in all browsers and devices.
+- I tested my codes in validator, initially there was few errors about not to use <h1> anywhere other than main heading, stray tags, to use div instead of sections etc., and I corrected all those errors and recieved pass in the same for both HTML and CSS.
 
-Having placed my hero images, as well as the "times" image on the menu & locations banner, I was having an issue with the size of the images themselves. Either the images were zoomed in more than what they should be, or they were not showing at all, being too large for their containers. The issue with the hero image was resolved by adding the following style rule 
-```
-background-size:100% 100%;
-```
-This solution was brought to my attention in a thread found in Stackoverflow. The graphic in the menu/locations banner was then fixed by adding the images to the html documents as image elements, & then defining their size in the CSS rules. This same method was then used to add in additional images to each page.
-
-Next I struggled with centring the different elements on the page, and often found that the elements would align to the left of the page, despite having set the rule to {margin:0 auto}. I fought with this issue for longer than I should, forcing the placements of the images with numerous style rules. Knowing that my method of attack was incorrect, I enlisted the assistance of my cousin, who then informed me that the main source of my frustration was the 
-```
-position:absolute;
-```
-rule, and directed me towards the 'flex' styling rules that immediately made things much easier & my code far less unruly.
-
-Ran the html files through W3C validator. Upon initial run through, some sections failed. Once I removed the paragraph elements from the the unordered list elements, the issue was resolved.
-
-The same happened with running the style rules through the CSS validator. Two rules hadn't been written correctly, but once amended, it passed without any errors.
-
-I tried to add a static navigation panel at the top that would always be visible no matter how far down the page a user scrolled. However what ended up occurring, was that whilst I was able to achieve this, the section element below (such as the Hero Image), would then shift up in its placement & move behind the navigation element. The navigation element would also shift to the left of the page, & would need creative adjustments to the margins to return back to its original position of being centred. I was unable to figure out how to resolve this, and returned the navigation bar to its original design. I may revisit this feature later on & try to correct it.
-
-The media queries proved to be a challenge. It took a lot of trial & error in the Chrome Dev tool to adjust everything accordingly so that it would not display horribly out of sync when the page was to be resized. I found undoing my horizontal alignments where I had applied flex styles to be particularly challenging, however eventually phrased my my conundrum correctly in my google search, & was able to locate the resolution on Stackoverflow.
-
-As I moved through the different sizes of queries, managing the banner & wording I had overlaid on the hero image became near impossible. After several hours of fiddling and beating my head against the wall, I decided to try it from a new approach. I moved the banner png into the index.html file, and removed it as a background image from the css style sheet. This ultimately gave me more control over the size & continuous position of it, and allowed me to move it around the page & overlay the text much more effortlessly. What I did end up having to do however, was create a media query for each 100px bracket, as the overlaying text would still move to far. 
-
-After a review of the project with my mentor, we decided it would be better to turn the initial "LA LUCHA" banner into a solitary image, instead of text overlaying a PNG, as this was still producing scaling issues where the text would move position across the banner when being sized.
-
-Issues with placement of the images next to the descriptions was also resolved once I changed the flex rules applied, and removed any unnecessary pagging from around the parent element.
 
 ### Validator Testing:
 - HTML files pass through the [W3C validator](https://validator.w3.org/) with no issues found.
@@ -246,51 +235,20 @@ Issues with placement of the images next to the descriptions was also resolved o
 
 ## Credits
 
-### Content:
-As my knowledge of implementation is limited at this point in my learning, the initial set up & style was set loosely on the 'Love Running' walk-through project. From there, I took inspiration for the design of the navigation bar, along with the display of the social links in the footer element.
-
-The styling of the form element in 'Love Running' was used as a starting point for my form to help remember all categories that needed to be addressed.
-
-Stackoverflow [Reply](https://stackoverflow.com/questions/16056591/font-scaling-based-on-width-of-container) was used to fix the issue with scaling font sizes, where I was reminded of how to size fonts with viewport widths & heights.
-
-Stackoverflow [Reply](https://stackoverflow.com/questions/1150163/stretch-and-scale-a-css-image-in-the-background-with-css-only) was used to fix the issue with image sizes within their containers, where I found the styling rule 
-```
-background-size: 100% 100%;.
-```
-
-Another useful site that also helped with my image sizing issues & explained it in more detail was [Digital Ocean](https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit).
-
-
-My cousin turned me on to [flex style rules](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), & with those, I was finally able to fix my alignment issues both horizontally & vertically using the following three rules:
-```
-1. display:flex; 
-2. align-items:center; 
-3. justify-content:space-between;
-```
-Stackoverflow [Reply](https://stackoverflow.com/questions/1150163/stretch-and-scale-a-css-image-in-the-background-with-css-only) supplied the style rules to stretch the text in the "locations" page banner.
-```
-1. transform: scaleY(2);
-2. transform-origin: 0 0;
-```
-Stackoverflow [Reply](https://stackoverflow.com/questions/63437323/how-to-remove-display-flex-in-media-query) provided the answer on how to undo my flex styling rule.
-
-Stackoverflow [Reply](https://stackoverflow.com/questions/4888377/how-to-add-a-browser-tab-icon-favicon-for-a-website) explained how to add an icon to the browser tab of the web page.
-
-Support was provided by my fellow student [Mats](https://github.com/Pelikantapeten/p1-nacka-tomato-society) by aiding me in bouncing off ideas & venting frustrations. They were also immeasurably helpful in explaining Media Queries in a way that I was able to grasp. They also informed me that when creating a contact form, one most also create a form-dump page.
+- I would like to credit my mentor Martina Terlevic for her guidance and support. To help me identify whether have I fulfilled all the criterias required for the project to be complete and for sharing me the links of websites that would be helpful while creating website.
+- I would credit the Love Running project walkthrough, which helped a lot in creating the basic structure of my website. I wouldn't have been able to create that drop-down nav toggle menu without it.
+- My husband supported me and helped a lot with this project by giving his constant constructive feedbacks and helping me with photoshopping images wherever required, so I would like to thank him for his support.
+- I got a friend through slack named Harry, I would like to thank him for giving his idea to create a customised form-dump page and 404 error page. He also helped me in clarifying my doubts when I didn't know how to make the 404 error page work.
+- The Youtube tutorial I followed to create [The Portfolio Masonry Grid](https://youtu.be/3TN9J3pCn6k?si=pVdm875MrmF8zwGU)
+- Another youtube tutorial followed to create [The Pop-up Image Gallery](https://youtu.be/uxYfxLsUuP0?si=SdAEH1rWO-zgVJ6N)
+- The Wix website template which acted as a wireframe for my project [Wix Template](https://rb.gy/384srs)
+- My dear friend Sindhu, for whom I created this website. Who believed in me and gave permission to create this website for her and provided me with all the necessary informations and images.
 
 ### Media:
-- Hero image is called ["Food Truck in the Street"](https://www.thebalancesmb.com/thmb/IRZI2gmNsYFTTPCH774ohMD4uJE=/2088x1436/filters:fill(auto,1)/food-truck-in-the-street-496731672-863bfb69328341c1804fec18e39be715.jpg) by Maica
-
-The following images came from Pexel:
-- [Three Purple Chairs - Pexel](https://www.pexels.com/photo/three-purple-plastic-chairs-3013212/)
-- [Photo by Brett Sayles - B&W Aztec food truck](https://www.pexels.com/photo/grayscale-photograph-of-two-people-standing-in-front-of-food-truck-1264937/)
-- [Photo by Jess - shrimp tacos](https://www.pexels.com/photo/white-and-blue-bus-near-green-palm-tree-under-blue-sky-4609255/)
-- [Photo by cottonbro - chalk background](https://www.pexels.com/photo/black-wall-in-close-up-image-3826435/)
-- [Photo by Andrea Piacquadio - messy chalkboard](https://www.pexels.com/photo/woman-in-red-long-sleeve-writing-on-chalk-board-3769714/)
-- [Photo by Rodnae Productions - foodtruck staff](https://www.pexels.com/photo/man-and-woman-standing-in-front-of-the-food-truck-5779665/)
-- [Photo by Roberto Nickson - palm trees](https://www.pexels.com/photo/green-and-brown-coconut-trees-under-clear-blue-sky-2486168/)
-
-Stocksnap supplied this one:
-- [Photo by Bruce Mars - vegetable stand](https://stocksnap.io/photo/vegetable-stall-KZ19NV9MVY)
+- [The Logo Image](https://rb.gy/pp143q)
+- [Freepik.com](https://www.freepik.com/)
 
 ### Youtube:
+
+- [Masonry Grid](https://youtu.be/3TN9J3pCn6k?si=pVdm875MrmF8zwGU)
+- [Pop-up Image](https://youtu.be/uxYfxLsUuP0?si=SdAEH1rWO-zgVJ6N)
