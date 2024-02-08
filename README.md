@@ -79,8 +79,8 @@ I took inspiration from a template in wix.com website. [Click Here](https://rb.g
 
 ### Colour Scheme:
 I wanted my colour palette to communicate makeup. So, I used two colors which are used majorly in makeup industry, that is caramel brown and charcoal grey, which also contrasted well with white background. Used [Rgba Color Picker](https://rgbacolorpicker.com/) to pick the colors.
-![Colour Palette](https://i.ibb.co/rbVRHmm/Screenshot-2024-02-08-at-10-32-13-am.png)
-(https://i.ibb.co/pJxCg45/Screenshot-2024-02-08-at-10-31-14-am.png)
+![Caramel Brown](https://i.ibb.co/rbVRHmm/Screenshot-2024-02-08-at-10-32-13-am.png)
+![Charcoal Grey](https://i.ibb.co/pJxCg45/Screenshot-2024-02-08-at-10-31-14-am.png)
 
 ### Typography:
 I used 'Karla' font, since it was simple, professional and classy. It complimented well to the color palette and images. All the headings and paragraphs were used 'Karla' font with different font-weight and colours. The two font colors used were charcoal grey and white to keep it simple and readable.
