@@ -29,6 +29,7 @@ The Siihraz Shades Makeover site is live, the link to which can be found [HERE](
   + [Portfolio](#portfolio "Portfolio")
   + [Contact](#contact "Contact")
   + [Footer](#footer "Footer")
+  + [404 Error Page](#404-error-page "404 Error Page)
   + [Existing Features](#existing-features "Existing Features")
   + [Future Features](#future-features "Future Features")
 + [Testing and Challenges](#testing-and-challenges "Testing and Challenges")
@@ -134,18 +135,18 @@ The contact page consists of form to fill for the client to reach out to the mak
 ![Contact Information](https://i.ibb.co/47D3s21/Screenshot-2024-02-08-at-10-52-10-am.png)
 ![Google Maps](https://i.ibb.co/413TbGV/Screenshot-2024-02-08-at-10-52-29-am.png)
 
+Thank You Page
 A 'form dump' page has also been included upon the instruction of the mentor who informed me that it was necessary if a form was added to the project. The form-dump page appears as follows...
 
 ![Contact-form-form-dump-page](Insert thank you page)
 
 #### Footer:
-
-#### Social Links:
+Social Links
 Links to the makeup artists social media pages can be found on the bottom of each page at the footer, & each one will take the user to the respective social media platform in a new tab.
 
 ![Social-Links](https://i.ibb.co/6NhkFBf/Screenshot-2024-02-08-at-10-45-21-am.png)
 
-#### Footer Comment:
+Footer Comment
 A comment has been added to the footer to indicate that the site is intended for educational purposes only. This has been done as the logo-image used was sourced from a google search, and I do not have the rights to the image. The image has been credited in this document.
 
 #### 404 Error Page:
@@ -183,13 +184,24 @@ I have also added a customised 404 error page which can be seen when the url get
    ![Contact](https://i.ibb.co/VBBTQP4/Screenshot-2024-02-08-at-11-28-01-am.png)
    - Result for thankyou.html
    ![Thank You](https://i.ibb.co/gzgj2sX/Screenshot-2024-02-08-at-11-34-49-am.png)
+   - Result for 404.html
+   ![404]()
 
 
 - CSS files pass through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found.
 ![Jigsaw validator message](https://i.ibb.co/v4kgHKD/Screenshot-2024-02-08-at-11-42-47-am.png)
 
-- Page has a good Accessibility rating in Lighthouse
-![Lighthouse score](https://i.ibb.co/nCK5ZCf/Screenshot-2024-02-08-at-9-48-39-pm.png)
+- All pages has a good Accessibility rating in Lighthouse
+   - Result for index.html
+   ![index.html](https://i.ibb.co/fGF4c6Y/Screenshot-2024-02-08-at-11-09-22-pm.png)
+   - Result for portfolio.html
+   ![portfolio.html](https://i.ibb.co/9cXvwt9/Screenshot-2024-02-08-at-11-13-46-pm.png)
+   - Result for contact.html
+   ![Contact](https://i.ibb.co/k9MDQJw/Screenshot-2024-02-08-at-11-10-04-pm.png)
+   - Result for thankyou.html
+   ![Thank You](https://i.ibb.co/k9RTYFP/Screenshot-2024-02-08-at-11-11-18-pm.png)
+   - Result for 404.html
+   ![404]()
 
 - Tested the site opens in Chrome & Safari without issues.
 - All links open to external pages as intended.
@@ -234,7 +246,6 @@ I have also added a customised 404 error page which can be seen when the url get
 - Press enter.
 
 ## Credits
-
 - I would like to credit my mentor Martina Terlevic for her guidance and support. To help me identify whether have I fulfilled all the criterias required for the project to be complete and for sharing me the links of websites that would be helpful while creating website.
 - I would credit the Love Running project walkthrough, which helped a lot in creating the basic structure of my website. I wouldn't have been able to create that drop-down nav toggle menu without it.
 - My husband supported me and helped a lot with this project by giving his constant constructive feedbacks and helping me with photoshopping images wherever required, so I would like to thank him for his support.
