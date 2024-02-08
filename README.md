@@ -24,6 +24,8 @@ The Siihraz Shades Makeover site is live, the link to which can be found [HERE](
   + [Imagery](#imagery "Imagery")
 + [Features](#features "Features")
   + [Landing Page](#landing-page "Landing Page")
+  + [Services](#services "Services")
+  + [Reviews](Reviews "Reviews")
   + [Portfolio](#portfolio "Portfolio")
   + [Contact](#contact "Contact")
   + [Footer](#footer "Footer")
@@ -92,36 +94,45 @@ Apart from the Home page's cover image and Thank you page's background image, al
 #### Navigation bar:
 This is included across all three pages, and provides people with an easy reference to navigate between the 'Home', 'Services' 'Reviews' 'Portfolio' & 'Contact' pages.
 
-![Navigation bar](Insert screenshot of your navigation bar)
+![Navigation bar](https://i.ibb.co/sQL7hQM/Screenshot-2024-02-08-at-10-36-13-am.png)
 
 #### Landing Page:
 The landing page has the Logo Image which is displayed like a cover image at the top of the Home page.
 
 I photoshopped the image with the official logo of the makeup artists company Siihraz Shades Makeover in it. The logo image defines the feel of the website, providing the user with an image that they can easily associate to what the company is & does.
 
-![Logo-image](Insert the Logo Image screenshot)
+![Logo image](https://i.ibb.co/JFGw7ZD/Screenshot-2024-02-08-at-10-37-33-am.png)
 
 The About me section is listed right beneath the Logo Image. It has the photo of the makeup artist and a brief explanation about her and her work.
 
-![About-us](Insert About me Image)
+![About me](https://i.ibb.co/0sm59J5/Screenshot-2024-02-08-at-10-39-43-am.png)
 
 The Landing Page also got Services and Reviews in it.
 
+#### Services
+
 The Services section explains about the different services done by the makeup artist with a picture of a model and brief explanation about it underneath.
 
-![Services](Insert services section image)
+![Services](https://i.ibb.co/KqsjbNj/Screenshot-2024-02-08-at-10-43-13-am.png)
+
+#### Reviews
 
 And when you scroll below the services section, there comes Reviews section which has few reviews about the makeup artist given by her clients.
 
-![Reviews](Insert reviews section image)
+![Reviews](https://i.ibb.co/MgWbDrX/Screenshot-2024-02-08-at-10-45-10-am.png)
 
 #### Portfolio:
 The portfolio page consists of masonry grid of images of makeup artist's clients to display her work. The images can be clicked to open and view. Below that, there will be a youtube video of the makeup artist working with her client.
 
-![Portfolio](Insert Portfolio page image)
+![Portfolio](https://i.ibb.co/Bsv7mTz/Screenshot-2024-02-08-at-10-48-14-am.png)
+![Video](https://i.ibb.co/SK1Hpkq/Screenshot-2024-02-08-at-10-48-36-am.png)
 
 #### Contact:
 The contact page consists of form to fill for the client to reach out to the makeup artist for consultation and below that ther is contact information of the makeup artist to book an appointment with her. In small devices like mobile I have added scroll bar for the contact information since the mail id and address seems to very large for small screens. A google map of her location is added below it.
+
+[Contact Form](https://i.ibb.co/6F61kWf/Screenshot-2024-02-08-at-10-51-32-am.png)
+[Contact Information](https://i.ibb.co/47D3s21/Screenshot-2024-02-08-at-10-52-10-am.png)
+[Google Maps](https://i.ibb.co/413TbGV/Screenshot-2024-02-08-at-10-52-29-am.png)
 
 A 'form dump' page has also been included upon the instruction of the mentor who informed me that it was necessary if a form was added to the project. The form-dump page appears as follows...
 
@@ -132,7 +143,7 @@ A 'form dump' page has also been included upon the instruction of the mentor who
 #### Social Links:
 Links to the makeup artists social media pages can be found on the bottom of each page at the footer, & each one will take the user to the respective social media platform in a new tab.
 
-![Social-Links](Insert image of the footer)
+![Social-Links](https://i.ibb.co/6NhkFBf/Screenshot-2024-02-08-at-10-45-21-am.png)
 
 #### Footer Comment:
 A comment has been added to the footer to indicate that the site is intended for educational purposes only. This has been done as the logo-image used was sourced from a google search, and I do not have the rights to the image. The image has been credited in this document.
