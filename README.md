@@ -28,6 +28,7 @@ The Siihraz Shades Makeover site is live, the link to which can be found [HERE](
   + [Reviews](Reviews "Reviews")
   + [Portfolio](#portfolio "Portfolio")
   + [Contact](#contact "Contact")
+  + [Thank You Page](#thank-you-page "Thank You Page")
   + [Footer](#footer "Footer")
   + [404 Error Page](#404-error-page "404 Error Page")
   + [Existing Features](#existing-features "Existing Features")
@@ -87,7 +88,7 @@ I wanted my colour palette to communicate makeup. So, I used two colors which ar
 I used 'Karla' font, since it was simple, professional and classy. It complimented well to the color palette and images. All the headings and paragraphs were used 'Karla' font with different font-weight and colours. The two font colors used were charcoal grey and white to keep it simple and readable.
 
 ### Imagery:
-Apart from the Home page's cover image and Thank you page's background image, all the image are own images of the makeup artist. I chose few of the best pictures of herself and her work from her gallery which may look well for the website. Home page's cover image was taken from Google and Thank you page's background image was taken from free pik website.
+Apart from the Home page's cover image and Thank you page's background image, all the image are own images of the makeup artist. I chose few of the best pictures of herself and her work from her gallery which may look well for the website. Home page's cover image was taken from pngtree website and Thank you page's background image was taken from freepik website.
 
 ## Features
 
@@ -118,7 +119,7 @@ The Services section explains about the different services done by the makeup ar
 
 #### Reviews
 
-And when you scroll below the services section, there comes Reviews section which has few reviews about the makeup artist given by her clients.
+And when you scroll below the Services section, there comes Reviews section which has few reviews about the makeup artist given by her clients.
 
 ![Reviews](https://i.ibb.co/MgWbDrX/Screenshot-2024-02-08-at-10-45-10-am.png)
 
@@ -129,24 +130,24 @@ The portfolio page consists of masonry grid of images of makeup artist's clients
 ![Video](https://i.ibb.co/SK1Hpkq/Screenshot-2024-02-08-at-10-48-36-am.png)
 
 #### Contact:
-The contact page consists of form to fill for the client to reach out to the makeup artist for consultation and below that ther is contact information of the makeup artist to book an appointment with her. In small devices like mobile I have added scroll bar for the contact information since the mail id and address seems to very large for small screens. A google map of her location is added below it.
+The contact page consists of form to fill for the audience to reach out to the makeup artist for consultation and below that there is contact information of the makeup artist to book an appointment with her. In small devices like mobile I have added scroll bar for the contact information, as the mail id and address seems to be very large for small screens. A google map of her location is added below it.
 
 ![Contact Form](https://i.ibb.co/z2pfxdX/Screenshot-2024-02-08-at-11-44-12-am.png)
 ![Contact Information](https://i.ibb.co/47D3s21/Screenshot-2024-02-08-at-10-52-10-am.png)
 ![Google Maps](https://i.ibb.co/413TbGV/Screenshot-2024-02-08-at-10-52-29-am.png)
 
-Thank You Page
-A 'form dump' page has also been included upon the instruction of the mentor who informed me that it was necessary if a form was added to the project. The form-dump page appears as follows...
+#### Thank You Page
+A customised 'form dump' page saying 'Thank You' has also been included upon the instruction of the mentor who informed me that it was necessary if a form was added to the project. The Thank-You page opens once the user clicks the send button after fulfilling the required information in the form...
 
-![Contact-form-form-dump-page](Insert thank you page)
+![Thank-You-Page](https://i.ibb.co/sbRbsvn/Screenshot-2024-02-08-at-11-32-56-pm.png)
 
 #### Footer:
-Social Links
-Links to the makeup artists social media pages can be found on the bottom of each page at the footer, & each one will take the user to the respective social media platform in a new tab.
+#### Social Links
+Links of Facebook and Instagram will take to the makeup artist's social media page which can be found on the bottom of each page at the footer. Youtube and Twitter links will take the user to the respective social media platform in a new tab.
 
 ![Social-Links](https://i.ibb.co/6NhkFBf/Screenshot-2024-02-08-at-10-45-21-am.png)
 
-Footer Comment
+#### Footer Comment
 A comment has been added to the footer to indicate that the site is intended for educational purposes only. This has been done as the logo-image used was sourced from a google search, and I do not have the rights to the image. The image has been credited in this document.
 
 #### 404 Error Page:
@@ -162,14 +163,14 @@ I have also added a customised 404 error page which can be seen when the url get
 ## Testing and Challenges:
 - I came across many challenges while creating this website. One of the major challenge which I kept facing again and again was positioning the contents in the centre of the page. Then after many trial and errors, I learned to create a parent div and give flex values to it helped me to centre the content in many places.
 - I was confused at many places about what unit to use for size of the contents. Then I figured out using percentage helps in places where responsiveness is needed and in other places I mostly went with pixels.
-- Initially I struggled a lot with images since it was not uploading when I added it to the Images folder and used it's relative path. Then I remebered studying somewhere in lessons about image hosting site. And I googled and came across "Imgbb.com" website for image hosting, which helped with all my image issues.
+- Initially I struggled a lot with images since it was not uploading when I added it to the images folder and used it's relative path. Then I remebered studying somewhere in lessons about image hosting site. I googled about the same and came across "Imgbb.com" website for image hosting, which helped to host my image and solve all my issues with it.
 - Whenever I felt like my code is not giving the desired style I want, I would google my query and mostly I would find my answer in it.
 - For Portfolio I wanted to create a gallery which when clicked should open and display the full image. I found a YouTube tutorial for the same and followed it to achieve the desired result.
 - Similarly, to create the Masonry Grid of my Portfolio too I followed a YouTube tutorial.
 - In contact page, the contact information was too long for small screens, so when was confused about what to do, got an idea of adding scroll bar to overflowing content which was learnt in lessons helped.
 - I was not aware of form-dump page when clicked submit in the form, my mentor Martina pointed that out and after which I added a form-dump page to my form.
-- I tested my website in all 3 screen sizes and which seems to work without any error.
-- I tested all my external links which also opens fine in the seperate tabs.
+- I tested my website in all 3 screen sizes and which seems to work responsively without any error.
+- I tested all my external links which also opens fine in new tabs.
 - All my images seems to load perfectly without any delay in all browsers and devices.
 - I tested my codes in validator, initially there was few errors about not to use "h1" anywhere other than main heading, stray tags, to use div instead of sections etc., and I corrected all those errors and recieved pass in the same for both HTML and CSS.
 
@@ -215,11 +216,10 @@ I have also added a customised 404 error page which can be seen when the url get
 
 ### Frameworks, Libraries & Programs Used:
 - Google Fonts - for the font families: Karla was used for font. San-serif was used as a default font.
-- Font Awesome - to add icons to the social links in the footer element.
+- Font Awesome - to add icons to the social links in the footer element and home icon in Thank You Page.
 - GitPod - to creat my html files & styling sheet before pushing the project to Github.
 - GitHub - to store my repository for submission.
 - Adobe Photoshop - were used to edit images and create mockups of the project in various devices.
-- Favicon - to provide the code & image for the icon in the tab bar.
 - Imgbb - to host my images, since directly adding my images to assets was not working as the size of images were huge.
 - Rgbacolorpicker - to pick color for the website.
 
@@ -248,8 +248,8 @@ I have also added a customised 404 error page which can be seen when the url get
 ## Credits
 - I would like to credit my mentor Martina Terlevic for her guidance and support. To help me identify whether have I fulfilled all the criterias required for the project to be complete and for sharing me the links of websites that would be helpful while creating website.
 - I would credit the Love Running project walkthrough, which helped a lot in creating the basic structure of my website. I wouldn't have been able to create that drop-down nav toggle menu without it.
-- My husband supported me and helped a lot with this project by giving his constant constructive feedbacks and helping me with photoshopping images wherever required, so I would like to thank him for his support.
-- I got a friend through slack named Harry, I would like to thank him for giving his idea to create a customised form-dump page and 404 error page. He also helped me in clarifying my doubts when I didn't know how to make the 404 error page work.
+- My husband supported me and helped a lot with this project by giving his constant constructive feedbacks and helping me with photoshopping images wherever required, so I would like to thank him for his help and support.
+- I got a friend through slack named Harry. I would like to thank him for giving his idea to create a customised 404 error page. He also helped me in clarifying my doubts when I didn't know how to make the 404 error page work.
 - The Youtube tutorial I followed to create [The Portfolio Masonry Grid](https://youtu.be/3TN9J3pCn6k?si=pVdm875MrmF8zwGU)
 - Another youtube tutorial followed to create [The Pop-up Image Gallery](https://youtu.be/uxYfxLsUuP0?si=SdAEH1rWO-zgVJ6N)
 - The Wix website template which acted as a wireframe for my project [Wix Template](https://rb.gy/384srs)
