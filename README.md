@@ -186,16 +186,21 @@ Issues with placement of the images next to the descriptions was also resolved o
 
 ### Validator Testing:
 - HTML files pass through the [W3C validator](https://validator.w3.org/) with no issues found.
-   - ![Result for index.html](Insert html validator screenshot)
-   - ![Result for portfolio.html](Insert html validator screenshot)
-   - ![Result for contact.html](Insert html validator screenshot)
-   - ![Result for thankyou.html](Insert html validator screenshot)
+   - Result for index.html
+   ![index.html](https://i.ibb.co/WKFTTG2/Screenshot-2024-02-08-at-11-21-14-am.png)
+   - Result for portfolio.html
+   ![portfolio.html](https://i.ibb.co/vZ0X4qm/Screenshot-2024-02-08-at-11-26-46-am.png)
+   - Result for contact.html
+   ![Contact](https://i.ibb.co/VBBTQP4/Screenshot-2024-02-08-at-11-28-01-am.png)
+   - Result for thankyou.html
+   ![Thank You](https://i.ibb.co/gzgj2sX/Screenshot-2024-02-08-at-11-34-49-am.png)
+
 
 - CSS files pass through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found.
-![Jigsaw validator message](Insert css validator image)
+![Jigsaw validator message](https://i.ibb.co/v4kgHKD/Screenshot-2024-02-08-at-11-42-47-am.png)
 
-- Page has a great Accessibility rating in Lighthouse
-![Lighthouse score](Insert lighthouse score)
+- Page has a good Accessibility rating in Lighthouse
+![Lighthouse score](https://i.ibb.co/nCK5ZCf/Screenshot-2024-02-08-at-9-48-39-pm.png)
 
 - Tested the site opens in Chrome & Safari without issues.
 - All links open to external pages as intended.
