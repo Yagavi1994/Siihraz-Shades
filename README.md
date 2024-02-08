@@ -130,7 +130,7 @@ The portfolio page consists of masonry grid of images of makeup artist's clients
 #### Contact:
 The contact page consists of form to fill for the client to reach out to the makeup artist for consultation and below that ther is contact information of the makeup artist to book an appointment with her. In small devices like mobile I have added scroll bar for the contact information since the mail id and address seems to very large for small screens. A google map of her location is added below it.
 
-[Contact Form](https://i.ibb.co/6F61kWf/Screenshot-2024-02-08-at-10-51-32-am.png)
+[Contact Form](https://i.ibb.co/z2pfxdX/Screenshot-2024-02-08-at-11-44-12-am.png)
 [Contact Information](https://i.ibb.co/47D3s21/Screenshot-2024-02-08-at-10-52-10-am.png)
 [Google Maps](https://i.ibb.co/413TbGV/Screenshot-2024-02-08-at-10-52-29-am.png)
 
