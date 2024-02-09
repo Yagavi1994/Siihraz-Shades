@@ -723,11 +723,49 @@ border-radius: 30px;
     margin: auto;
 }
 
+#oops h2 {
+        text-align: center;
+        font-family:'Josefin Sans', sans-serif;
+        font-size: 170%;
+        color: #3a3a3a;
+        text-align: center;
+        font-weight: 600;
+        letter-spacing: 3px;
+        padding: 10px 0;
+        margin: auto;
+    }
+
+#oops h3 {
+        text-align: center;
+        font-family:'Josefin Sans', sans-serif;
+        font-size: 150%;
+        color: #3a3a3a;
+        text-align: center;
+        font-weight: 500;
+        letter-spacing: 3px;
+        padding: 10px 0;
+        margin: auto;
+    }
+
+#oops p {
+    color: #ffffff;
+    font-weight: 350;
+    font-family: 'Josefin Sans', 'sans-serif';
+    font-weight:400;
+    font-size: 100%;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 10px 30px 10px 10px;
+    margin: auto;
+}
+
 #minigame {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    align-content: center ;
     justify-content: space-evenly;
     margin: auto;
     max-width: 500px;
@@ -746,11 +784,22 @@ border-radius: 30px;
     font-size: 30px;
     text-align: center;
     background-color: rgba(230, 163, 107, 0.73);
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 .icon {
     display: none;
 }
+
+.icon i {
+    font-size: 160%;
+    padding: 5%;
+    color: #ffffff;
+    padding: 10px 0;
+
+} 
 
 .grid:hover > .icon {
     display: block;
