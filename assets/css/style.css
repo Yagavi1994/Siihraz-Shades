@@ -723,13 +723,6 @@ border-radius: 30px;
     margin: auto;
 }
 
-#minigame.container {
-    height: 90%;
-    width: 90%;
-    max-width: 500px;
-    max-height: 500px;
-}
-
 #minigame {
     display: flex;
     flex-direction: row;
@@ -737,6 +730,8 @@ border-radius: 30px;
     align-items: center;
     justify-content: space-evenly;
     margin: auto;
+    max-width: 500px;
+    max-height: 500px;
 
 }
 
@@ -744,10 +739,10 @@ border-radius: 30px;
     border: 1px solid black;
     margin: 10px;
     padding: 20px;
-    height: 25vw;
-    width: 25vw;
-    max-width: 150px;
-    max-height: 150px;
+    height: 20vw;
+    width: 20vw;
+    max-width: 120px;
+    max-height: 120px;
     font-size: 30px;
     text-align: center;
     background-color: rgba(230, 163, 107, 0.73);
@@ -757,7 +752,7 @@ border-radius: 30px;
     display: none;
 }
 
-.grid:hover + .icon {
+.grid:hover > .icon {
     display: block;
 }
 
