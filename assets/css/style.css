@@ -731,7 +731,7 @@ border-radius: 30px;
         text-align: center;
         font-weight: 600;
         letter-spacing: 3px;
-        padding: 10px 0;
+        padding: 20px 0;
         margin: auto;
     }
 
@@ -748,7 +748,7 @@ border-radius: 30px;
     }
 
 #oops p {
-    color: #ffffff;
+    color: #3a3a3a;
     font-weight: 350;
     font-family: 'Josefin Sans', 'sans-serif';
     font-weight:400;
@@ -799,6 +799,12 @@ border-radius: 30px;
     color: #ffffff;
 
 } 
+
+.icon a > i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
 
 .grid:hover > .icon {
     display: block;
