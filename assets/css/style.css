@@ -705,7 +705,15 @@ border-radius: 30px;
 }
 
 /* 404.html */
-
+#oops {
+    height: 60%;
+    width: 60%;
+    border-radius: 10%;
+    margin: 20px auto;
+    max-height: 400px;
+    max-width: 600px;
+    object-fit: contain;
+}
 #minigame {
     display: grid;
     grid-template-columns: auto auto auto;
