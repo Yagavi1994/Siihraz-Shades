@@ -705,20 +705,26 @@ border-radius: 30px;
 }
 
 /* 404.html */
-#oops {
-    height: 60%;
-    width: 60%;
+#oops img {
+    height: 40%;
+    width: 40%;
     border-radius: 10%;
     margin: 20px auto;
     max-height: 400px;
     max-width: 600px;
     object-fit: contain;
 }
+
+#oops {
+    margin: auto;
+}
+
 #minigame {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
-    background-color: rgba(230, 163, 107, 0.73);
+    column-count: 3;
+    margin: auto;
 }
 
 .grid {
@@ -726,6 +732,7 @@ border-radius: 30px;
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    background-color: rgba(230, 163, 107, 0.73);
 }
 
 .icon {
