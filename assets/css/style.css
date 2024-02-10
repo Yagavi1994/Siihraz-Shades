@@ -753,7 +753,7 @@ border-radius: 30px;
     font-weight: 350;
     font-family: 'Josefin Sans', 'sans-serif';
     font-weight:400;
-    font-size: 100%;
+    font-size: 120%;
     line-height: 25px;
     letter-spacing: 2px;
     text-align: center;
@@ -999,7 +999,7 @@ footer {
     }
 
     #oops p {
-        font-size: 130%;
+        font-size: 150%;
     }
 
     /* Disclaimer */
@@ -1138,7 +1138,7 @@ footer {
 }
 
 #oops p {
-    font-size: 130%;
+    font-size: 180%;
 }
 
 /* Disclaimer */
