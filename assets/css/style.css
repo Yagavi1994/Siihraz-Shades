@@ -998,6 +998,10 @@ footer {
         font-size: 180%;
     }
 
+    #oops p {
+        font-size: 130%;
+    }
+
     /* Disclaimer */
 
     #disclaimer p {
@@ -1131,6 +1135,10 @@ footer {
 
 #oops h3 {
     font-size: 210%;
+}
+
+#oops p {
+    font-size: 130%;
 }
 
 /* Disclaimer */
