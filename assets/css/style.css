@@ -776,9 +776,9 @@ border-radius: 30px;
 .grid {
     border: 1px solid black;
     margin: 10px;
-    padding: 20px;
-    height: 20vw;
-    width: 20vw;
+    padding: 10px;
+    height: 25vw;
+    width: 25vw;
     max-width: 120px;
     max-height: 120px;
     font-size: 30px;
@@ -794,14 +794,13 @@ border-radius: 30px;
 }
 
 .icon i {
-    font-size: 160%;
-    padding: 5%;
+    font-size: 100%;
     color: #3a3a3a;
 
 } 
 
 .icon a > i {
-    font-size: 160%;
+    font-size: 100%;
     padding: 5%;
     color: #ffffff;
 }
@@ -979,6 +978,17 @@ footer {
 
     }
 
+    /* 404 Page */
+
+    .icon i {
+        font-size: 130%;
+    
+    } 
+    
+    .icon a > i {
+        font-size: 130%;
+    }
+
     /* Disclaimer */
 
     #disclaimer p {
@@ -1078,6 +1088,17 @@ footer {
 
     table {
         border-spacing: 10px;
+    }
+
+     /* 404 Page */
+
+     .icon i {
+        font-size: 160%;
+    
+    } 
+    
+    .icon a > i {
+        font-size: 160%;
     }
 
     /* Thank You Page */
