@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -447,7 +448,7 @@ main {
 
 #makeup-video {
     position: relative;
-/* Equals 16:9 ratio - Learnt from a YouTube Tutorial */
+    /* Equals 16:9 ratio - Learnt from a YouTube Tutorial */
     padding-bottom: 56.25%;
     height: 0;
 }
@@ -604,7 +605,7 @@ table {
 }
 
 #google-map iframe {
-   display: block;
+    display: block;
     width: 100%;
     height: 100%;
     margin: 50px 0;
@@ -614,7 +615,7 @@ table {
 
 #ty-page {
     background-image: url(https://i.ibb.co/P1TTwwc/different-cosmetics-scattered-beige-table.jpg);
-    background-repeat: no-repeat ;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -623,10 +624,11 @@ table {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin: auto ;
+    margin: auto;
     width: 100%;
     height: 100%;
-} 
+}
+
 #thank-you {
     position: relative;
     display: flex;
@@ -653,24 +655,24 @@ table {
 }
 
 #message-container {
-margin: auto;
-width: 120vw;
-height: 100vw;
-max-width: 350px; 
-max-height: 350px;
-display: flex;
-align-items: center;
-flex-wrap: wrap;
-justify-content: center; 
-background-color: rgba(230, 163, 107, 0.73);
-opacity: 1;
-margin: 30px 30px;
-border-radius: 30px;
+    margin: auto;
+    width: 120vw;
+    height: 100vw;
+    max-width: 350px;
+    max-height: 350px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(230, 163, 107, 0.73);
+    opacity: 1;
+    margin: 30px 30px;
+    border-radius: 30px;
 }
 
 #message-container h2 {
     text-align: center;
-    font-family:'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 200%;
     color: #3a3a3a;
     text-align: center;
@@ -685,7 +687,7 @@ border-radius: 30px;
     color: #ffffff;
     font-weight: 350;
     font-family: 'Josefin Sans', 'sans-serif';
-    font-weight:400;
+    font-weight: 400;
     font-size: 100%;
     line-height: 25px;
     letter-spacing: 2px;
@@ -694,7 +696,7 @@ border-radius: 30px;
     margin: auto;
 }
 
-#go-home i{
+#go-home i {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
@@ -710,8 +712,8 @@ border-radius: 30px;
     width: 90vw;
     border-radius: 50%;
     margin: auto;
-    max-height: 250px;
-    max-width: 400px;
+    max-height: 350px;
+    max-width: 500px;
     object-fit: contain;
 }
 
@@ -724,36 +726,35 @@ border-radius: 30px;
 }
 
 #oops h2 {
-        text-align: center;
-        font-family:'Josefin Sans', sans-serif;
-        font-size: 170%;
-        color: #3a3a3a;
-        text-align: center;
-        font-weight: 800;
-        letter-spacing: 3px;
-        padding: 20px 0;
-        margin: auto;
-    }
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 170%;
+    color: #3a3a3a;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 3px;
+    padding: 20px 0;
+    margin-top: 20px;
+}
 
 #oops h3 {
-        text-align: center;
-        font-family:'Josefin Sans', sans-serif;
-        font-size: 150%;
-        color: #3a3a3a;
-        text-align: center;
-        font-weight: 500;
-        letter-spacing: 3px;
-        padding: 10px 10px;
-        margin: auto;
-        background-color: rgb(209, 51, 51);
-    }
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 250%;
+    color: #3a3a3a;
+    text-align: center;
+    font-weight: 1200;
+    letter-spacing: 3px;
+    padding: 10px 10px;
+    margin: auto;
+}
 
-#oops p {
+#oops h4 {
     color: #3a3a3a;
     font-weight: 350;
-    font-family: 'Josefin Sans', 'sans-serif';
-    font-weight:400;
-    font-size: 120%;
+    font-family: 'Karla', 'sans-serif';
+    font-weight: 600;
+    font-size: 140%;
     line-height: 25px;
     letter-spacing: 2px;
     text-align: center;
@@ -761,54 +762,14 @@ border-radius: 30px;
     margin: auto;
 }
 
-#minigame {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center ;
-    justify-content: space-evenly;
-    margin: auto;
-    max-width: 500px;
-    max-height: 500px;
-
-}
-
-.grid {
-    border: 1px solid black;
-    margin: 10px;
-    padding: 10px;
-    height: 25vw;
-    width: 25vw;
-    max-width: 120px;
-    max-height: 120px;
-    font-size: 30px;
-    text-align: center;
-    background-color: rgba(230, 163, 107, 0.73);
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-}
-
-.icon {
-    display: none;
-}
-
-.icon i {
-    font-size: 100%;
-    color: #3a3a3a;
-
-} 
-
-.icon a > i {
-    font-size: 100%;
-    padding: 5%;
+#oops button {
+    background-color: rgba(195, 113, 56, 0.63);
     color: #ffffff;
-}
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 5%;
+    font-size: 'Karla', 'sans-serif';
 
-.grid:hover > .icon {
-    display: block;
 }
 
 /* Footer */
@@ -816,6 +777,7 @@ footer {
     background-color: rgba(47, 52, 48, 0.8);
 
 }
+
 #social-media {
     display: flex;
     justify-content: space-evenly;
@@ -975,21 +937,12 @@ footer {
         line-height: 30px;
     }
 
-    #go-home i{
+    #go-home i {
         font-size: 180%;
 
     }
 
     /* 404 Page */
-
-    .icon i {
-        font-size: 130%;
-    
-    } 
-    
-    .icon a > i {
-        font-size: 130%;
-    }
 
     #oops h2 {
         font-size: 200%;
@@ -1104,17 +1057,6 @@ footer {
         border-spacing: 10px;
     }
 
-     /* 404 Page */
-
-     .icon i {
-        font-size: 160%;
-    
-    } 
-    
-    .icon a > i {
-        font-size: 160%;
-    }
-
     /* Thank You Page */
 
     #message-container h2 {
@@ -1126,27 +1068,29 @@ footer {
         line-height: 35px;
     }
 
-    #go-home i{
+    #go-home i {
         font-size: 200%;
-}
+    }
 
-#oops h2 {
-    font-size: 230%;
-}
+    /* 404 Page */
 
-#oops h3 {
-    font-size: 210%;
-}
+    #oops h2 {
+        font-size: 230%;
+    }
 
-#oops p {
-    font-size: 180%;
-}
+    #oops h3 {
+        font-size: 210%;
+    }
 
-/* Disclaimer */
+    #oops p {
+        font-size: 180%;
+    }
 
-#disclaimer p {
-    font-size: 70%;
+    /* Disclaimer */
 
-}
+    #disclaimer p {
+        font-size: 70%;
+
+    }
 
 }
