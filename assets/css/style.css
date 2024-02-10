@@ -729,7 +729,7 @@ table {
     text-align: center;
     font-family: 'Karla', sans-serif;
     font-size: 170%;
-    color: rgba(195, 113, 56, 0.63);
+    color: #3a3a3a;
     text-align: center;
     font-weight: 800;
     letter-spacing: 3px;
@@ -740,8 +740,7 @@ table {
     text-align: center;
     font-family: 'Karla', sans-serif;
     font-size: 500%;
-    background-color: #3a3a3a;
-    color: #ffffff;
+    color: rgba(195, 113, 56, 0.63);
     text-align: center;
     font-weight: 1000;
     letter-spacing: 3px;
