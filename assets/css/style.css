@@ -759,7 +759,7 @@ table {
     text-align: center;
     padding: 10px;
     background-color: #585656;
-    border-radius: 5%;
+    border-radius: 10%;
 
 }
 
@@ -783,7 +783,7 @@ table {
     background-color: rgba(195, 113, 56, 0.63);
     color: #ffffff;
     padding: 10px 30px;
-    border-radius: 5%;
+    border-radius: 10%;
     font-family: 'Karla', 'sans-serif';
     text-decoration: none;
     text-align: center;
