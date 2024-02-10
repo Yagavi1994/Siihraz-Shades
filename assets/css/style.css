@@ -776,7 +776,7 @@ table {
     max-width: 350px;
 }
 
-#keep-calm button {
+#keep-calm a > button {
     background-color: rgba(195, 113, 56, 0.63);
     color: #ffffff;
     padding: 10px 30px;
