@@ -77,7 +77,7 @@ and keeps their focus on the site.
 ## Design
 
 ### Wireframes:
-I took inspiration from a template in wix.com website. [Click Here](https://rb.gy/384srs) To view that template. I designed many features of my website with reference to this template. The portfolio and the contact pages were inspired from this one. This template acted as a guideline for me.
+I took inspiration from a template in wix.com website. [Click Here](https://rb.gy/384srs) to view that template. I designed many features of my website with reference to this template. The portfolio and the contact pages were inspired from this one. This template acted as a guideline for me.
 
 ### Colour Scheme:
 I wanted my colour palette to communicate makeup. So, I used two colors which are used majorly in makeup industry, that is caramel brown and charcoal grey, which also contrasted well with white background. Used [Rgba Color Picker](https://rgbacolorpicker.com/) to pick the colors.
@@ -88,7 +88,7 @@ I wanted my colour palette to communicate makeup. So, I used two colors which ar
 I used 'Karla' font, since it was simple, professional and classy. It complimented well to the color palette and images. All the headings and paragraphs were used 'Karla' font with different font-weight and colours. The two font colors used were charcoal grey and white to keep it simple and readable.
 
 ### Imagery:
-Apart from the Home page's cover image and Thank you page's background image, all the image are own images of the makeup artist. I chose few of the best pictures of herself and her work from her gallery which may look well for the website. Home page's cover image was taken from pngtree website and Thank you page's background image was taken from freepik website.
+Apart from the Home page's cover image, Thank you page's background image and images in 404 page, all the image are own images of the makeup artist. I chose few of the best pictures of herself and her work from her gallery which would look well for the website. Home page's cover image was taken from pngtree website, Thank you page's background image was taken from freepik website and 404 page pictures were downloaded from Google.
 
 ## Features
 
@@ -124,7 +124,7 @@ And when you scroll below the Services section, there comes Reviews section whic
 ![Reviews](https://i.ibb.co/MgWbDrX/Screenshot-2024-02-08-at-10-45-10-am.png)
 
 #### Portfolio:
-The portfolio page consists of masonry grid of images of makeup artist's clients to display her work. The images can be clicked to open and view. Below that, there will be a youtube video of the makeup artist working with her client.
+The portfolio page consists of masonry grid of images of makeup artist's clients to display her work. The images can be clicked to open and view. Below that, there will be a youtube video of the makeup artist working with her client. The masonry grid was made to present the portfolio pictures in a attractive way to the audience.
 
 ![Portfolio](https://i.ibb.co/Bsv7mTz/Screenshot-2024-02-08-at-10-48-14-am.png)
 ![Video](https://i.ibb.co/SK1Hpkq/Screenshot-2024-02-08-at-10-48-36-am.png)
@@ -161,14 +161,14 @@ I have also added a customised 404 error page which can be seen when anything is
 - More rich and classy looking website.
 
 ## Testing and Challenges:
-- I came across many challenges while creating this website. One of the major challenge which I kept facing again and again was positioning the contents in the centre of the page. Then after many trial and errors, I learned to create a parent div and give flex values to it helped me to centre the content in many places.
+- I came across many challenges while creating this website. One of the major challenge which I kept facing again and again was positioning the contents in the centre of the page. Then after many trial and errors, I learnt to create a parent div and give flex values to it helped me to centre the content in many places.
 - I was confused at many places about what unit to use for size of the contents. Then I figured out using percentage helps in places where responsiveness is needed and in other places I mostly went with pixels.
 - Initially I struggled a lot with images since it was not uploading when I added it to the images folder and used it's relative path. Then I remebered studying somewhere in lessons about image hosting site. I googled about the same and came across "Imgbb.com" website for image hosting, which helped to host my image and solve all my issues with it.
 - Whenever I felt like my code is not giving the desired style I want, I would google my query and mostly I would find my answer in it.
 - For Portfolio I wanted to create a gallery which when clicked should open and display the full image. I found a YouTube tutorial for the same and followed it to achieve the desired result.
 - Similarly, to create the Masonry Grid of my Portfolio too I followed a YouTube tutorial.
 - In contact page, the contact information was too long for small screens, so when was confused about what to do, got an idea of adding scroll bar to overflowing content which was learnt in lessons helped.
-- I was not aware of form-dump page when clicked submit in the form, my mentor Martina pointed that out and after which I added a form-dump page to my form.
+- I was not aware of creating a form-dump page when clicked submit in the form, my mentor Martina pointed that out and after which I added a customised form-dump page to my form.
 - It was quite hard designing 404 page when compared to others because any changes made to it can be seen only after deploying it in the github. So it took me more time designing this page for me when compared to others.
 - I tested my website in all 3 screen sizes and which seems to work responsively without any error.
 - I tested all my external links which also opens fine in new tabs.
