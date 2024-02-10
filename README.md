@@ -137,7 +137,7 @@ The contact page consists of form to fill for the audience to reach out to the m
 ![Google Maps](https://i.ibb.co/413TbGV/Screenshot-2024-02-08-at-10-52-29-am.png)
 
 #### Thank You Page
-A customised 'form dump' page saying 'Thank You' has also been included upon the instruction of the mentor who informed me that it was necessary if a form was added to the project. The Thank-You page opens once the user clicks the send button after fulfilling the required information in the form...
+A customised 'form dump' page saying 'Thank You' has been included to Thank the users who took their time to fill out the form and share their information. The Thank-You page opens once the user clicks the send button after fulfilling the required information in the form.
 
 ![Thank-You-Page](https://i.ibb.co/sbRbsvn/Screenshot-2024-02-08-at-11-32-56-pm.png)
 
@@ -151,7 +151,7 @@ Links of Facebook and Instagram will take to the makeup artist's social media pa
 A comment has been added to the footer to indicate that the site is intended for educational purposes only. This has been done as the logo-image used was sourced from a google search, and I do not have the rights to the image. The image has been credited in this document.
 
 #### 404 Error Page:
-I have also added a customised 404 error page which can be seen when the url gets broken or failed to load for any reason.
+I have also added a customised 404 error page which can be seen when anything is typed at the end of the URL and pressed enter. This page would add a little fun element to the website and the users.
 
 ### Future Features:
 - Upgraded gallery with left and right buttons to navigate between images.
@@ -169,6 +169,7 @@ I have also added a customised 404 error page which can be seen when the url get
 - Similarly, to create the Masonry Grid of my Portfolio too I followed a YouTube tutorial.
 - In contact page, the contact information was too long for small screens, so when was confused about what to do, got an idea of adding scroll bar to overflowing content which was learnt in lessons helped.
 - I was not aware of form-dump page when clicked submit in the form, my mentor Martina pointed that out and after which I added a form-dump page to my form.
+- It was quite hard designing 404 page when compared to others because any changes made to it can be seen only after deploying it in the github. So it took me more time designing this page for me when compared to others.
 - I tested my website in all 3 screen sizes and which seems to work responsively without any error.
 - I tested all my external links which also opens fine in new tabs.
 - All my images seems to load perfectly without any delay in all browsers and devices.
@@ -202,7 +203,7 @@ I have also added a customised 404 error page which can be seen when the url get
    - Result for thankyou.html
    ![Thank You](https://i.ibb.co/k9RTYFP/Screenshot-2024-02-08-at-11-11-18-pm.png)
    - Result for 404.html
-   ![404]()
+   ![404](https://i.ibb.co/X5y4S6v/Screenshot-2024-02-10-at-5-54-05-pm.png)
 
 - Tested the site opens in Chrome & Safari without issues.
 - All links open to external pages as intended.

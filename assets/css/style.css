@@ -765,8 +765,8 @@ table {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px 0;
     flex-direction: row;
+    margin: 0;
 }
 
 #keep-calm img {
