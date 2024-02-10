@@ -779,7 +779,7 @@ table {
     object-fit: contain;
 }
 
-#keep-calm a > button {
+#keep-calm a {
     background-color: rgba(195, 113, 56, 0.63);
     color: #ffffff;
     padding: 10px 30px;
@@ -788,7 +788,6 @@ table {
     text-decoration: none;
     text-align: center;
     width: 120px;
-    padding: 10px 10px;
     margin: 10px 0;
     font-size: 100%;
 }
