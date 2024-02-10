@@ -786,6 +786,7 @@ border-radius: 30px;
     text-align: center;
     background-color: rgba(230, 163, 107, 0.73);
     display: flex;
+    align-items: center;
     align-content: center;
     justify-content: center;
 }
