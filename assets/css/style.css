@@ -750,7 +750,6 @@ table {
 
 #oops p {
     color: #ffffff;
-    font-weight: 350;
     font-family: 'Karla', 'sans-serif';
     font-weight: 700;
     font-size: 140%;
@@ -759,7 +758,6 @@ table {
     text-align: center;
     padding: 10px;
     background-color: #585656;
-    border-radius: 10%;
 
 }
 
@@ -782,8 +780,7 @@ table {
 #keep-calm2 a {
     background-color: rgba(195, 113, 56, 0.63);
     color: #ffffff;
-    padding: 10px 30px;
-    border-radius: 10%;
+    padding: 10px;
     font-family: 'Karla', 'sans-serif';
     text-decoration: none;
     text-align: center;
@@ -1000,6 +997,12 @@ footer {
         font-size: 160%;
     } 
 
+    #keep-calm2 a {
+
+        font-size: 130%;
+
+    }
+
     /* Disclaimer */
 
     #disclaimer p {
@@ -1133,6 +1136,12 @@ footer {
     #keep-calm p {
         font-size: 180%;
     } 
+
+    #keep-calm2 a {
+
+        font-size: 130%;
+
+    }
 
     /* Disclaimer */
 

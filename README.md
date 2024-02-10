@@ -186,7 +186,7 @@ I have also added a customised 404 error page which can be seen when the url get
    - Result for thankyou.html
    ![Thank You](https://i.ibb.co/gzgj2sX/Screenshot-2024-02-08-at-11-34-49-am.png)
    - Result for 404.html
-   ![404]()
+   ![404](https://i.ibb.co/31k4rm0/Screenshot-2024-02-10-at-5-16-31-pm.png)
 
 
 - CSS files pass through the [Jigsaw validator](rs ) with no issues found.
