@@ -733,23 +733,22 @@ table {
     text-align: center;
     font-weight: 800;
     letter-spacing: 3px;
-    padding: 20px 0;
-    margin-top: 20px;
+    padding: 0 0 10px 0;
 }
 
 #oops h3 {
     text-align: center;
     font-family: 'Karla', sans-serif;
-    font-size: 250%;
-    color: #3a3a3a;
+    font-size: 500%;
+    color: rgba(195, 113, 56, 0.63);
     text-align: center;
-    font-weight: 1200;
+    font-weight: 1000;
     letter-spacing: 3px;
-    padding: 10px 10px;
+    padding: 0px 10px;
     margin: auto;
 }
 
-#oops h4 {
+#oops p {
     color: #3a3a3a;
     font-weight: 350;
     font-family: 'Karla', 'sans-serif';
@@ -758,18 +757,44 @@ table {
     line-height: 25px;
     letter-spacing: 2px;
     text-align: center;
-    padding: 20px 30px 10px 10px;
-    margin: auto;
+    padding: 0px 10px 10px 10px;
+    margin: 0 auto;
 }
 
-#oops button {
+#go-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#go-home img {
+    height: 30vw;
+    width: 30vw;
+    max-height: 350px;
+    max-width: 350px;
+}
+
+#go-home button {
     background-color: rgba(195, 113, 56, 0.63);
     color: #ffffff;
-    padding: 10px;
+    padding: 10px 30px;
     margin-top: 30px;
     border-radius: 5%;
     font-size: 'Karla', 'sans-serif';
+    text-decoration: none;
+}
 
+#go-home p {
+    color: #3a3a3a;
+    font-weight: 350;
+    font-family: 'Karla', 'sans-serif';
+    font-weight: 600;
+    font-size: 140%;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 0px 10px 10px 10px;
+    margin: 0 auto;
 }
 
 /* Footer */
@@ -949,12 +974,16 @@ footer {
     }
 
     #oops h3 {
-        font-size: 180%;
+        font-size: 550%;
     }
 
     #oops p {
-        font-size: 150%;
+        font-size: 160%;
     }
+
+    #go-home p {
+        font-size: 160%;
+    } 
 
     /* Disclaimer */
 
@@ -1079,12 +1108,16 @@ footer {
     }
 
     #oops h3 {
-        font-size: 210%;
+        font-size: 600%;
     }
 
     #oops p {
         font-size: 180%;
     }
+
+    #go-home p {
+        font-size: 180%;
+    } 
 
     /* Disclaimer */
 
