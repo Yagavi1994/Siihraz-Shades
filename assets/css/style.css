@@ -710,8 +710,8 @@ border-radius: 30px;
     width: 90vw;
     border-radius: 50%;
     margin: auto;
-    max-height: 400px;
-    max-width: 711px;
+    max-height: 250px;
+    max-width: 400px;
     object-fit: contain;
 }
 
@@ -729,7 +729,7 @@ border-radius: 30px;
         font-size: 170%;
         color: #3a3a3a;
         text-align: center;
-        font-weight: 600;
+        font-weight: 800;
         letter-spacing: 3px;
         padding: 20px 0;
         margin: auto;
@@ -745,6 +745,7 @@ border-radius: 30px;
         letter-spacing: 3px;
         padding: 10px 0;
         margin: auto;
+        background-color: rgb(209, 51, 51);
     }
 
 #oops p {
@@ -989,6 +990,14 @@ footer {
         font-size: 130%;
     }
 
+    #oops h2 {
+        font-size: 200%;
+    }
+
+    #oops h3 {
+        font-size: 180%;
+    }
+
     /* Disclaimer */
 
     #disclaimer p {
@@ -1114,6 +1123,14 @@ footer {
 
     #go-home i{
         font-size: 200%;
+}
+
+#oops h2 {
+    font-size: 230%;
+}
+
+#oops h3 {
+    font-size: 210%;
 }
 
 /* Disclaimer */
