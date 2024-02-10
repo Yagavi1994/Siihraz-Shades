@@ -761,20 +761,20 @@ table {
     margin: 0 auto;
 }
 
-#go-home {
+#keep-calm {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#go-home img {
+#keep-calm img {
     height: 30vw;
     width: 30vw;
     max-height: 350px;
     max-width: 350px;
 }
 
-#go-home button {
+#keep-calm button {
     background-color: rgba(195, 113, 56, 0.63);
     color: #ffffff;
     padding: 10px 30px;
@@ -782,9 +782,11 @@ table {
     border-radius: 5%;
     font-size: 'Karla', 'sans-serif';
     text-decoration: none;
+    text-align: center;
+    width: 80px;
 }
 
-#go-home p {
+#keep-calm p {
     color: #3a3a3a;
     font-weight: 350;
     font-family: 'Karla', 'sans-serif';
@@ -981,7 +983,7 @@ footer {
         font-size: 160%;
     }
 
-    #go-home p {
+    #keep-calm p {
         font-size: 160%;
     } 
 
@@ -1115,7 +1117,7 @@ footer {
         font-size: 180%;
     }
 
-    #go-home p {
+    #keep-calm p {
         font-size: 180%;
     } 
 
