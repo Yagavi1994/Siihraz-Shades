@@ -707,6 +707,14 @@ table {
 }
 
 /* 404.html */
+
+#page-not-found {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+}
+
 #oops img {
     height: 70vw;
     width: 90vw;
