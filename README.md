@@ -189,7 +189,7 @@ I have also added a customised 404 error page which can be seen when the url get
    ![404]()
 
 
-- CSS files pass through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found.
+- CSS files pass through the [Jigsaw validator](rs ) with no issues found.
 ![Jigsaw validator message](https://i.ibb.co/v4kgHKD/Screenshot-2024-02-08-at-11-42-47-am.png)
 
 - All pages has a good Accessibility rating in Lighthouse

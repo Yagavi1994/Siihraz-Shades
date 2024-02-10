@@ -779,7 +779,7 @@ table {
     object-fit: contain;
 }
 
-#keep-calm a {
+#keep-calm2 a {
     background-color: rgba(195, 113, 56, 0.63);
     color: #ffffff;
     padding: 10px 30px;
@@ -792,7 +792,7 @@ table {
     font-size: 100%;
 }
 
-#keep-calm p {
+#keep-calm2 p {
     color: #585656;
     font-family: 'Karla', 'sans-serif';
     font-weight: 500;
