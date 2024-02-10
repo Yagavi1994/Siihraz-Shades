@@ -749,7 +749,7 @@ table {
 }
 
 #oops p {
-    color: #3a3a3a;
+    color: #585656;
     font-weight: 350;
     font-family: 'Karla', 'sans-serif';
     font-weight: 600;
@@ -765,11 +765,13 @@ table {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
 }
 
 #keep-calm img {
-    height: 30vw;
-    width: 30vw;
+    height: 50vw;
+    width: 50vw;
     max-height: 350px;
     max-width: 350px;
 }
@@ -778,12 +780,11 @@ table {
     background-color: rgba(195, 113, 56, 0.63);
     color: #ffffff;
     padding: 10px 30px;
-    margin-top: 30px;
     border-radius: 5%;
     font-size: 'Karla', 'sans-serif';
     text-decoration: none;
     text-align: center;
-    width: 80px;
+    width: 120px;
 }
 
 #keep-calm p {
@@ -795,8 +796,6 @@ table {
     line-height: 25px;
     letter-spacing: 2px;
     text-align: center;
-    padding: 0px 10px 10px 10px;
-    margin: 0 auto;
 }
 
 /* Footer */
