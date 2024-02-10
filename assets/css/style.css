@@ -796,14 +796,14 @@ border-radius: 30px;
 .icon i {
     font-size: 160%;
     padding: 5%;
-    color: #ffffff;
+    color: #3a3a3a;
 
 } 
 
 .icon a > i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #ffffff;
 }
 
 .grid:hover > .icon {
