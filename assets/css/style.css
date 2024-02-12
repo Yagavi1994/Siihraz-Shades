@@ -11,6 +11,7 @@
 }
 
 /* General Styles */
+
 body {
     min-height: 100vh;
     display: flex;
@@ -21,6 +22,7 @@ body {
 }
 
 /* Header */
+
 header {
     background-color: #ffffff;
     padding: 1rem 1rem;
@@ -52,6 +54,7 @@ header a {
 }
 
 /* Menu */
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -65,6 +68,7 @@ header a {
 }
 
 /* Nav toggle dropdown list - Learnt the code from Walkthrough project */
+
 nav {
     position: absolute;
     width: 100%;
@@ -90,6 +94,7 @@ nav {
 }
 
 /* Main Content */
+
 main {
     background-color: white;
     flex: 1 0 auto;
@@ -97,6 +102,7 @@ main {
 }
 
 /* Logo Image */
+
 #logo-image img {
     height: 100%;
     width: 100%;
@@ -219,6 +225,7 @@ main {
 }
 
 /* Bridal Makeup */
+
 #bridal-service {
     display: flex;
     flex-direction: column;
@@ -252,6 +259,7 @@ main {
 }
 
 /* Photoshoot Makeup */
+
 #photoshoot-service {
     display: flex;
     flex-direction: column;
@@ -286,6 +294,7 @@ main {
 }
 
 /* Events Makeup */
+
 #events-service {
     display: flex;
     flex-direction: column;
@@ -320,6 +329,7 @@ main {
 }
 
 /* Reviews */
+
 #reviews h2 {
     font-family: 'Karla', sans-serif;
     font-size: 170%;
@@ -347,6 +357,7 @@ main {
 }
 
 /* Portfoloio */
+
 #portfolio {
     background-color: rgba(47, 52, 48, 0.8);
     padding-bottom: 80px;
@@ -485,6 +496,7 @@ main {
 }
 
 /* Contact Form */
+
 #form {
     display: flex;
     align-items: center;
@@ -654,6 +666,8 @@ table {
 
 }
 
+/* Thank You Message */
+
 #message-container {
     margin: auto;
     width: 120vw;
@@ -722,10 +736,10 @@ table {
     height: 70vw;
     width: 90vw;
     border-radius: 50%;
-    margin: auto;
+    margin: 10px;
     max-height: 350px;
     max-width: 500px;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 #oops {
@@ -772,6 +786,8 @@ table {
     background-color: #585656;
 
 }
+
+/* Keep Calm */
 
 #keep-calm {
     display: flex;
@@ -822,6 +838,7 @@ table {
 }
 
 /* Footer */
+
 footer {
     background-color: rgba(47, 52, 48, 0.8);
 
@@ -863,6 +880,7 @@ footer {
 @media screen and (min-width: 768px) {
 
     /* Header */
+
     nav {
         display: block;
         box-shadow: none;
@@ -944,16 +962,19 @@ footer {
     }
 
     /* Reviews */
+
     #reviews h2 {
         font-size: 200%;
     }
 
     /* Portfolio */
+
     #portfolio h2 {
         font-size: 200%;
     }
 
     /* contacts */
+
     #contact-details h2 {
         font-size: 200%;
     }
@@ -1089,11 +1110,13 @@ footer {
     }
 
     /* Portfolio */
+
     #portfolio h2 {
         font-size: 250%;
     }
 
     /* Contact */
+    
     #contact-details h2 {
         font-size: 250%;
 
