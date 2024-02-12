@@ -29,8 +29,8 @@ The Siihraz Shades Makeover site is live, the link to which can be found [HERE](
   + [Portfolio](#portfolio "Portfolio")
   + [Contact](#contact "Contact")
   + [Thank You Page](#thank-you-page "Thank You Page")
-  + [Footer](#footer "Footer")
   + [404 Error Page](#404-error-page "404 Error Page")
+  + [Footer](#footer "Footer")
   + [Existing Features](#existing-features "Existing Features")
   + [Future Features](#future-features "Future Features")
 + [Testing and Challenges](#testing-and-challenges "Testing and Challenges")
@@ -141,6 +141,10 @@ A customised 'form dump' page saying 'Thank You' has been included to Thank the 
 
 ![Thank-You-Page](https://i.ibb.co/sbRbsvn/Screenshot-2024-02-08-at-11-32-56-pm.png)
 
+#### 404 Error Page:
+I have also added a customised 404 error page which can be seen when anything is typed at the end of the URL and pressed enter. This page would add a little fun element to the website and the users.
+![404-Page](https://i.ibb.co/hWF49sB/Screenshot-2024-02-12-at-11-11-37-am.png)
+
 #### Footer:
 #### Social Links
 Links of Facebook and Instagram will take to the makeup artist's social media page which can be found on the bottom of each page at the footer. Youtube and Twitter links will take the user to the respective social media platform in a new tab.
@@ -149,9 +153,6 @@ Links of Facebook and Instagram will take to the makeup artist's social media pa
 
 #### Footer Comment
 A comment has been added to the footer to indicate that the site is intended for educational purposes only. This has been done as the logo-image used was sourced from a google search, and I do not have the rights to the image. The image has been credited in this document.
-
-#### 404 Error Page:
-I have also added a customised 404 error page which can be seen when anything is typed at the end of the URL and pressed enter. This page would add a little fun element to the website and the users.
 
 ### Future Features:
 - Upgraded gallery with left and right buttons to navigate between images.
