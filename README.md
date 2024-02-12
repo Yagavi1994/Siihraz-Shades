@@ -171,10 +171,11 @@ A comment has been added to the footer to indicate that the site is intended for
 - In contact page, the contact information was too long for small screens, so when was confused about what to do, got an idea of adding scroll bar to overflowing content which was learnt in lessons helped.
 - I was not aware of creating a form-dump page when clicked submit in the form, my mentor Martina pointed that out and after which I added a customised form-dump page to my form.
 - It was quite hard designing 404 page when compared to others because any changes made to it can be seen only after deploying it in the github. So it took me more time designing this page for me when compared to others.
-- I tested my website in all 3 screen sizes and which seems to work responsively without any error.
+- I tested my website in all 4 screen sizes and which seems to work responsively without any error.
 - I tested all my external links which also opens fine in new tabs.
 - All my images seems to load perfectly without any delay in all browsers and devices.
 - I tested my codes in validator, initially there was few errors about not to use "h1" anywhere other than main heading, stray tags, to use div instead of sections etc., and I corrected all those errors and recieved pass in the same for both HTML and CSS.
+- Tested the site which opens in Chrome & Safari without issues.
 
 
 ### Validator Testing:
@@ -206,8 +207,6 @@ A comment has been added to the footer to indicate that the site is intended for
    - Result for 404.html
    ![404](https://i.ibb.co/X5y4S6v/Screenshot-2024-02-10-at-5-54-05-pm.png)
 
-- Tested the site opens in Chrome & Safari without issues.
-- All links open to external pages as intended.
 
 ### Unfixed Bugs:
 
