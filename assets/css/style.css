@@ -759,6 +759,7 @@ table {
     font-weight: 800;
     letter-spacing: 3px;
     padding: 0 0 10px 0;
+    margin: 0 10px;
 }
 
 #oops h3 {
@@ -1116,7 +1117,7 @@ footer {
     }
 
     /* Contact */
-    
+
     #contact-details h2 {
         font-size: 250%;
 
