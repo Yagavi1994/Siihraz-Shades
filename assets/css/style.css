@@ -641,6 +641,8 @@ table {
     height: 100%;
 }
 
+/* Thank You - Logo */
+
 #thank-you {
     position: relative;
     display: flex;
@@ -666,7 +668,7 @@ table {
 
 }
 
-/* Thank You Message */
+/* Thank You - Message */
 
 #message-container {
     margin: auto;
@@ -731,6 +733,8 @@ table {
     width: 100%;
     height: 100%;
 }
+
+/* Oops */
 
 #oops img {
     height: 70vw;
@@ -878,6 +882,7 @@ footer {
 
 
 /* Media query for tablet and larger screen 768px and up */
+
 @media screen and (min-width: 768px) {
 
     /* Header */
@@ -1047,6 +1052,9 @@ footer {
     /* Large Devices like Laptop and Desktop (992px and up) */
 
     @media screen and (min-width: 992px) {
+
+        /* Header */
+        
         #menu a:hover {
             border-bottom: 1px solid black;
             color: rgba(195, 113, 56, 0.63);
